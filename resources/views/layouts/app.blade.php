@@ -10,20 +10,51 @@
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
-    <body class="font-sans antialiased">
-        <div class="min-h-screen bg-blue-800">
+    <body class="font-body antialiased">
+        <div class="min-h-screen bg-blue-900">
 
             <!-- Page Heading -->
-            <header class="bg-yellow-400 shadow">
-                <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                    <h1>Henlo!</h1>
+            <header class="bg-yellow-400 shadow flex justify-between items-center py-4 px-32">
+                <div class="">
+                    <h1 class="titolo"><span>{</span> templarec.dev <span>}</span> </h1>
                 </div>
+                <div >
+                    <ul class=" flex flex-row text-4xl text-blue-900 ">
+                        <li class="links"><span>.</span>Home</li>
+                        <li class="links">
+                            <span>.</span><span class="tttx">Lavori</span>
+                            <div class="dropdown hidden bg-yellow-400 border-2 border-blue-900">
+                                <ul class="flex flex-col">
+                                    <li>.Walfood</li>
+                                    <li>.BoolzApp</li>
+                                    <li>.Laravel-Comics</li>
+                                    <li>.EduPrime</li>
+                                    <li>~Museek.eu</li>
+                                    <li>~Portfolio Launcher</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="links relative"><span>.</span><span>Contatti</span>
+                            <div class="dropdown contatti hidden min-w-full bg-yellow-400 border-2 border-blue-900">
+                                <ul class="flex flex-col">
+                                    <li>@E-mail</li>
+                                    <li>.Linkedin</li>
+                                    <li>.GitHub</li>
+                                    <li>.Upwork</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
             </header>
 
             <!-- Page Content -->
             <main>
-              <h1 class="bg-yellow-400 font-medium">Henlo again!</h1>
+                @yield('content')
             </main>
+            <footer>
+            </footer>
         </div>
     </body>
 </html>

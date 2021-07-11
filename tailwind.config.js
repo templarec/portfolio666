@@ -11,6 +11,7 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+                body: ['VT323', 'monospace'],
             },
         },
     },
@@ -21,5 +22,8 @@ module.exports = {
         },
     },
 
-    plugins: [require('@tailwindcss/forms')],
+    plugins: [
+        require('@tailwindcss/forms'),
+        require('tailwindcss/nesting')
+    ],
 };

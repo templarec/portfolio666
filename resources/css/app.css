@@ -1,3 +1,33 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@layer base {
+    .links {
+        @apply mr-10 cursor-pointer uppercase;
+    }
+    .links:hover .dropdown {
+        @apply block absolute;
+    }
+    .links:hover .dropdown.contatti {
+        @apply block absolute right-0;
+    }
+    .links:hover span:nth-child(2) {
+        @apply text-red-600
+    }
+    .links:hover span:first-child {
+        @apply text-red-600 animate-ping
+    }
+    .titolo {
+        @apply text-5xl font-extrabold text-blue-900 cursor-pointer;
+    }
+    .titolo:hover span {
+        @apply text-red-600 animate-ping;
+    }
+    .dropdown {
+      @apply text-2xl p-2;
+    }
+    .dropdown li {
+        @apply cursor-pointer hover:text-red-600;
+    }
+}
