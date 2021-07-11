@@ -2,32 +2,101 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=VT323&display=swap');
+
 @layer base {
+    header {
+        height: 80px;
+    }
+
     .links {
+
         @apply mr-10 cursor-pointer uppercase;
     }
+
+    .collegamenti {
+        position: absolute;
+        z-index: 2;
+        top: 150px;
+        transform: rotate(5.6deg);
+    }
+
     .links:hover .dropdown {
         @apply block absolute;
     }
+
     .links:hover .dropdown.contatti {
         @apply block absolute right-0;
     }
+
     .links:hover span:nth-child(2) {
         @apply text-red-600
     }
+
     .links:hover span:first-child {
         @apply text-red-600 animate-ping
     }
     .titolo {
-        @apply text-5xl font-extrabold text-blue-900 cursor-pointer;
+        position: absolute;
+        transform: rotate(-16deg);
+        z-index: 2;
+        top: 75px;
+        @apply text-3xl font-extrabold text-blue-900 cursor-pointer;
     }
+
     .titolo:hover span {
         @apply text-red-600 animate-ping;
     }
+
     .dropdown {
-      @apply text-2xl p-2;
+        @apply text-2xl p-2;
     }
+
     .dropdown li {
         @apply cursor-pointer hover:text-red-600;
+    }
+
+    main {
+        height: calc(100vh - 80px);
+        @apply text-5xl text-yellow-400;
+    }
+
+    aside, .jumbo {
+        height: calc(100vh - 115px);
+    }
+
+    .jumbo {
+        @apply px-16;
+    }
+
+    .jumbo h3 {
+        @apply text-3xl text-white pl-3 mt-8;
+    }
+
+    .jumbo h4 {
+        @apply text-2xl text-white pl-3;
+    }
+
+    .partners {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        width: 50px;
+        height: 130px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translate(0, -50%);
+        @apply bg-yellow-400 text-blue-900;
+    }
+
+    .partners span {
+        white-space: nowrap;
+        transform: rotate(-90deg);
     }
 }
