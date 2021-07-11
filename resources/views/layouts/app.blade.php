@@ -11,18 +11,18 @@
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
     <body class="font-sans antialiased">
-        <div class="min-h-screen bg-gray-100">
+        <div class="min-h-screen bg-blue-800">
 
             <!-- Page Heading -->
-            <header class="bg-white shadow">
+            <header class="bg-yellow-400 shadow">
                 <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-
+                    <h1>Henlo!</h1>
                 </div>
             </header>
 
             <!-- Page Content -->
             <main>
-              <h1>Henlo world!</h1>
+              <h1 class="bg-yellow-400 font-medium">Henlo again!</h1>
             </main>
         </div>
     </body>
