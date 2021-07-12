@@ -1,12 +1,12 @@
 <template>
-    <div class="w-full h-full overflow-scroll">
+    <div class="grandone w-full overflow-scroll">
 
-        <div class="grid grid-cols-5 border-1 w-full h-full">
-            <aside class="portfolio relative flex flex-col items-end  col-start-1 col-end-2">
+        <div class="grid grid-cols-5">
+            <!--            <aside class="portfolio relative flex flex-col items-end  col-start-1 col-end-2">
 
-            </aside>
-            <div class="jumbo-portfolio flex flex-col col-start-2 col-end-5 flex flex-col pt-16 pl-16">
-                <div class="grid grid-rows-6 gap-y-6 mt-48">
+                        </aside>-->
+            <div class="jumbo-portfolio flex flex-col col-start-2 col-end-5 flex flex-col pl-16">
+                <div class="grid grid-rows-6 gap-y-6">
                     <div class="sito walfood h-48">
                         <div class=" grid grid-cols-3 gap-x-2 w-full h-full">
                             <a class="inline-block" href="http://www.bearwebdesign.eu/">
@@ -54,7 +54,7 @@
                     <div class="sito laravel-comics h-48">
                         <div class="grid grid-cols-3 gap-x-2 w-full h-full">
                             <a class="inline-block" href="">
-                                <div class="left flex justify-center left h-full max-h-48">
+                                <div class="left flex justify-center left h-full w-full max-h-48">
                                     <img src="/img/laravel-comics.png" alt="boolzapp Screenshot">
                                 </div>
                             </a>

@@ -754,6 +754,26 @@ select{
   outline: 1px auto -webkit-focus-ring-color;
 }
 
+::-webkit-scrollbar{
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(13deg, #FBBF24 22%,#1E3A8A 65%);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: linear-gradient(13deg, #FF0000 14%,#FFFFFF 64%);
+}
+
+::-webkit-scrollbar-track{
+  background: #1E3A8A;
+  border-radius: 0px;
+  box-shadow: inset 7px 10px 12px 30px #91ADFF;
+}
+
 header {
   height: 80px;
 }
@@ -830,7 +850,8 @@ header {
 }
 
 main {
-  height: calc(100vh - 80px);
+  height: calc(100vh - 230px);
+  max-width: 100vw;
   font-size: 3rem;
   line-height: 1;
   --tw-text-opacity: 1;
@@ -902,7 +923,7 @@ aside, .jumbo {
 .custom-shape-divider-top-1626026182 svg {
   position: relative;
   display: block;
-  width: calc(105% + 1.3px);
+  width: 100%;
   height: 150px;
 }
 
@@ -946,7 +967,7 @@ aside, .jumbo {
   text-decoration: underline;
 }
 
-aside.about img{
+aside.about img {
   width: 70%;
   border-radius: 10%;
 }
@@ -959,14 +980,26 @@ aside.about img{
   text-align: justify;
 }
 
+.grandone {
+  height: calc(100vh - 225px);
+  margin-top: 145px;
+  scrollbar-width: thin;
+  scrollbar-color: #FBBF24 transparent;
+  overflow-x: hidden
+}
+
 .jumbo-portfolio ul {
   color: white;
+}
+
+.left {
 }
 
 .left, img {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   max-height: 100%;
+  min-width: 100%;
 }
 
 .left img {

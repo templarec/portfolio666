@@ -39,6 +39,8 @@
 //
 //
 //
+//
+//
             /* harmony default export */
             const __WEBPACK_DEFAULT_EXPORT__ = ({
                 name: "about"
@@ -141,7 +143,6 @@
 //
 //
 //
-//
             /* harmony default export */
             const __WEBPACK_DEFAULT_EXPORT__ = ({
                 name: "info"
@@ -164,6 +165,13 @@
                 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
                 /* harmony export */
             });
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -722,11 +730,11 @@
                                         ),
                                         _c("br"),
                                         _vm._v(
-                                            "Ho frequentato il corso Boolean Careers per diventare Jr. Full Stack Web Developer nel primo semestre del 2021.\n                "
+                                            "Ho frequentato il corso Boolean Careers per diventare Jr. Full Stack Web Developer nel primo\n                semestre del 2021.\n                "
                                         ),
                                         _c("br"),
                                         _vm._v(
-                                            "Oltre l'informatica e la programmazione, i miei interessi sono la meditazione e la filosofia orientale.\n                "
+                                            "Oltre l'informatica e la programmazione, i miei interessi sono la meditazione e la filosofia\n                orientale.\n                "
                                         ),
                                         _c("br"),
                                         _vm._v(
@@ -1006,21 +1014,16 @@
                     var _vm = this
                     var _h = _vm.$createElement
                     var _c = _vm._self._c || _h
-                    return _c("div", {staticClass: "w-full h-full overflow-scroll"}, [
-                        _c("div", {staticClass: "grid grid-cols-5 border-1 w-full h-full"}, [
-                            _c("aside", {
-                                staticClass:
-                                    "portfolio relative flex flex-col items-end  col-start-1 col-end-2"
-                            }),
-                            _vm._v(" "),
+                    return _c("div", {staticClass: "grandone w-full overflow-scroll"}, [
+                        _c("div", {staticClass: "grid grid-cols-5"}, [
                             _c(
                                 "div",
                                 {
                                     staticClass:
-                                        "jumbo-portfolio flex flex-col col-start-2 col-end-5 flex flex-col pt-16 pl-16"
+                                        "jumbo-portfolio flex flex-col col-start-2 col-end-5 flex flex-col pl-16"
                                 },
                                 [
-                                    _c("div", {staticClass: "grid grid-rows-6 gap-y-6 mt-48"}, [
+                                    _c("div", {staticClass: "grid grid-rows-6 gap-y-6"}, [
                                         _c("div", {staticClass: "sito walfood h-48"}, [
                                             _c(
                                                 "div",
@@ -1069,13 +1072,13 @@
                                                             _vm._v(" "),
                                                             _c("p", {staticClass: "sito-desc"}, [
                                                                 _vm._v(
-                                                                    "Walfood è un sito di food delivery che prende spunto da Deliveroo"
+                                                                    "Walfood è un sito di food delivery che prende spunto da\n                                    Deliveroo"
                                                                 )
                                                             ]),
                                                             _vm._v(" "),
                                                             _c("p", {staticClass: "sito-desc"}, [
                                                                 _vm._v(
-                                                                    "Tecnologie utilizzate: HTML, CSS, SCSS, Bootstrap, Vue.js, Laravel"
+                                                                    "Tecnologie utilizzate: HTML, CSS, SCSS, Bootstrap, Vue.js,\n                                    Laravel"
                                                                 )
                                                             ]),
                                                             _vm._v(" "),
@@ -1177,7 +1180,7 @@
                                                                 "div",
                                                                 {
                                                                     staticClass:
-                                                                        "left flex justify-center left h-full max-h-48"
+                                                                        "left flex justify-center left h-full w-full max-h-48"
                                                                 },
                                                                 [
                                                                     _c("img", {
@@ -1214,7 +1217,7 @@
                                                             _vm._v(" "),
                                                             _c("p", {staticClass: "sito-desc"}, [
                                                                 _vm._v(
-                                                                    "Tecnologie utilizzate: HTML, CSS, SCSS, Javascript, Laravel, MySQL"
+                                                                    "Tecnologie utilizzate: HTML, CSS, SCSS, Javascript, Laravel,\n                                    MySQL"
                                                                 )
                                                             ]),
                                                             _vm._v(" "),

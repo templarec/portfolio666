@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Portfolio'),
+    'name' => env('APP_NAME', 'templarec.dev'),
 
     /*
     |--------------------------------------------------------------------------
@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'https://templarec.dev'),
 
     'asset_url' => env('ASSET_URL', null),
 
