@@ -149,6 +149,7 @@
 //
 //
 //
+//
             /* harmony default export */
             const __WEBPACK_DEFAULT_EXPORT__ = ({
                 name: "info"
@@ -171,6 +172,12 @@
                 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
                 /* harmony export */
             });
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -25006,7 +25013,7 @@
         var app = new Vue({
             el: '#app',
             data: {
-                section: 'portfolio'
+                section: 'home'
             },
             created: function created() {
                 this.showOverflow();
