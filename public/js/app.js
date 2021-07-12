@@ -1963,7 +1963,7 @@
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
   \*****************************/
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+        /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
             /**
              * First we will load all of this project's JavaScript dependencies which
@@ -2064,17 +2064,28 @@
                 deferred[i] = [chunkIds, fn, priority];
                 /******/
                 return;
-/******/ 			}
-/******/ 			var notFulfilled = Infinity;
-/******/ 			for (var i = 0; i < deferred.length; i++) {
-/******/ 				var [chunkIds, fn, priority] = deferred[i];
-/******/ 				var fulfilled = true;
-/******/ 				for (var j = 0; j < chunkIds.length; j++) {
-/******/ 					if ((priority & 1 === 0 || notFulfilled >= priority) && Object.keys(__webpack_require__.O).every((key) => (__webpack_require__.O[key](chunkIds[j])))) {
-/******/ 						chunkIds.splice(j--, 1);
-/******/ 					} else {
-/******/ 						fulfilled = false;
-/******/ 						if(priority < notFulfilled) notFulfilled = priority;
+                /******/
+            }
+            /******/
+            var notFulfilled = Infinity;
+            /******/
+            for (var i = 0; i < deferred.length; i++) {
+                /******/
+                var [chunkIds, fn, priority] = deferred[i];
+                /******/
+                var fulfilled = true;
+                /******/
+                for (var j = 0; j < chunkIds.length; j++) {
+                    /******/
+                    if ((priority & 1 === 0 || notFulfilled >= priority) && Object.keys(__webpack_require__.O).every((key) => (__webpack_require__.O[key](chunkIds[j])))) {
+                        /******/
+                        chunkIds.splice(j--, 1);
+                        /******/
+                    } else {
+                        /******/
+                        fulfilled = false;
+                        /******/
+                        if (priority < notFulfilled) notFulfilled = priority;
                         /******/
                     }
                     /******/
@@ -2169,8 +2180,10 @@
                     __webpack_require__.m[moduleId] = moreModules[moduleId];
                     /******/
                 }
-/******/ 			}
-/******/ 			if(runtime) var result = runtime(__webpack_require__);
+                /******/
+            }
+            /******/
+            if (runtime) var result = runtime(__webpack_require__);
             /******/
             if (parentChunkLoadingFunction) parentChunkLoadingFunction(data);
             /******/

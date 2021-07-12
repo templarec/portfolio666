@@ -24,6 +24,10 @@
         box-shadow: inset 7px 10px 12px 30px #91ADFF;
     }
 
+    html, body {
+        overflow-x: hidden;
+    }
+
     header {
         height: 80px;
     }
@@ -103,7 +107,7 @@
     main {
         height: calc(100vh - 230px);
         max-width: 100vw;
-        @apply text-5xl text-yellow-400;
+        @apply xs:h-screen text-5xl text-yellow-400;
     }
 
     aside, .jumbo {
@@ -172,6 +176,7 @@
 
     .jumbo-hard-skills {
         font-size: 20px;
+        padding-top: 10rem;
     }
 
     .jumbo-hard-skills h2 {
@@ -191,11 +196,13 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        @apply xs:w-1/2 xs:mb-4;
     }
 
     .jumbo-hard-skills ul li img {
-        width: 50px;
-        height: 50px;
+        width: 3.5rem;
+        height: 3.5rem;
+        object-fit: contain;
     }
 
     .jumbo-hard-skills p {
@@ -206,16 +213,23 @@
         text-decoration: underline;
     }
 
+    .soft-skills li {
+        @apply xs:text-3xl xs:whitespace-nowrap
+    }
+
     aside.about img {
         width: 70%;
         border-radius: 10%;
     }
 
+    .jumbo-about {
+
+    }
+
     .jumbo-about p {
-        width: 70%;
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
-        line-height: 35px;
+        line-height: 30px;
         text-align: justify;
     }
 

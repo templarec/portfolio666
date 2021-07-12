@@ -1,15 +1,16 @@
 <template>
-    <div class="w-full h-full overflow-hidden">
+    <div class="w-full h-full">
 
-        <div class="grid grid-cols-5 border-1 w-full h-full">
-            <aside class="relative flex flex-col justify-center col-start-1 col-end-2">
+        <div class="grid grid-cols-5  w-full h-full">
+            <aside class="relative xs:hidden flex flex-col justify-center col-start-1 col-end-2">
             </aside>
-            <div class="jumbo-hard-skills flex flex-col col-start-2 col-end-5 flex flex-col pt-16 pl-16">
+            <div
+                class="jumbo-hard-skills xs:h-screen xs:overflow-scroll col-span-5 w-full flex flex-col xs:items-center">
                 <h2>Lorenzo Bernini</h2>
                 <h3>Full Stack Web Developer</h3>
                 <p class="text-2xl mb-10"><a href="/docs/CV_Bernini_Lorenzo.pdf">Scarica CV</a></p>
                 <p class="text-4xl">Hard skills:</p>
-                <ul class="flex mb-10 justify-between w-full">
+                <ul class="flex xs:flex-wrap mb-10 xs:items-center justify-center w-full">
                     <li><img src="/icons/icons8-html-5-100.png" alt="html5 icon">HTML5</li>
                     <li><img src="/icons/icons8-css3-100.png" alt="css3 icon">CSS3</li>
                     <li><img src="/icons/tailwind.png" alt="css3 icon">Tailwind</li>
@@ -23,8 +24,14 @@
                     <li><img src="/icons/icons8-laravel-100.png" alt="css3 icon">Laravel</li>
                 </ul>
                 <p class="text-4xl">Soft skills:</p>
-                <img class="" src="/img/word-cloud.png" alt="word cloud">
-
+                <img class="xs:hidden" src="/img/word-cloud.png" alt="word cloud">
+                <ul class="soft-skills w-full flex flex-col xs:items-center justify-between">
+                    <li>Problem solving</li>
+                    <li>Apprendimento veloce</li>
+                    <li>Creatività</li>
+                    <li>Leadership</li>
+                    <li>Lavoro di squadra</li>
+                </ul>
 
             </div>
         </div>

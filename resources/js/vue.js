@@ -27,7 +27,10 @@ Vue.component('portfolio', require('./components/portfolio.vue').default);
 const app = new Vue({
     el: '#app',
     data: {
-        section: 'home',
+        section: 'portfolio',
+    },
+    created() {
+        this.showOverflow()
     },
     methods: {
         showHaMenu: function () {
@@ -38,6 +41,18 @@ const app = new Vue({
                 dropdown.addClass('hide')
             }
 
+        },
+        showOverflow: function () {
+            var docWidth = document.documentElement.offsetWidth;
+
+            [].forEach.call(
+                document.querySelectorAll('*'),
+                function (el) {
+                    if (el.offsetWidth > docWidth) {
+                        console.log(el);
+                    }
+                }
+            );
         }
     }
 });
