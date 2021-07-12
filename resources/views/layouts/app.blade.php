@@ -18,17 +18,17 @@
 
         <!-- Page Heading -->
         <header class="bg-yellow-400 grid grid-cols-5 shadow flex justify-between items-center py-4">
-            <div class="xs:flex sm:hidden xs:col-start-1 xs:col-end-4 flex p-1">
+            <div class="xs:flex sm:hidden xs:col-start-1 xs:col-end-3 flex p-1">
                 <div @click="showHaMenu()" class="hamburger">
                     <i class="fas fa-hamburger"></i>
                     <i class="fas fa-bars"></i>
                 </div>
             </div>
-            <div class="xs:col-start-4 xs:col-end-5 flex">
+            <div class="xs:col-span-2 flex justify-end">
                 <h1 class="titolo xs:whitespace-nowrap" @click="section = 'home'"><span>{</span> templarec.dev
                     <span>}</span></h1>
             </div>
-            <ul class="collegamenti hide xs:absolute flex xs:justify-between xs:items-center xs:text-3xl text-blue-900 ">
+            <ul class="collegamenti hide xs:absolute flex xs:items-center text-blue-900 ">
                 <li @click="section = 'info'" class="links"><span>.</span>Info</li>
                 <li @click="section = 'about'" class="links"><span>.</span>About</li>
                 <li class="links">

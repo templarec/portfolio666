@@ -40,6 +40,8 @@
         height: 150px;
         top: 80px;
         background-color: #FBBF24;
+        padding: 5px;
+        @apply xs:text-2xl
     }
 
     .links:hover .dropdown {
@@ -83,7 +85,7 @@
          z-index: 2;
          top: 162px;*/
         z-index: 2;
-        @apply xs:text-2xl font-extrabold text-blue-900 cursor-pointer;
+        @apply xs:text-3xl font-extrabold text-blue-900 cursor-pointer;
     }
 
     .titolo:hover span {
@@ -113,7 +115,7 @@
     }
 
     .jumbo h2 {
-        @apply xs:text-4xl w-full pl-3 mt-8;
+        @apply xs:text-3xl w-full pl-3 mt-8;
     }
 
     .jumbo h3 {
