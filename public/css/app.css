@@ -889,6 +889,113 @@ aside, .jumbo {
   transform: rotate(-90deg);
 }
 
+.custom-shape-divider-top-1626026182 {
+  position: absolute;
+  top: 74px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1626026182 svg {
+  position: relative;
+  display: block;
+  width: calc(105% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1626026182 .shape-fill {
+  fill: #FBBF24;
+}
+
+.jumbo-hard-skills {
+  font-size: 20px;
+}
+
+.jumbo-hard-skills h2 {
+  font-size: 40px;
+  color: white;
+}
+
+.jumbo-hard-skills h3 {
+  font-size: 30px;
+  color: red;
+}
+
+.jumbo-hard-skills ul li {
+  /*margin-right: 20px;*/
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbo-hard-skills ul li img {
+  width: 50px;
+  height: 50px;
+}
+
+.jumbo-hard-skills p {
+  color: white;
+}
+
+.jumbo-hard-skills p a {
+  text-decoration: underline;
+}
+
+aside.about img{
+  width: 70%;
+  border-radius: 10%;
+}
+
+.jumbo-about p {
+  width: 70%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: justify;
+}
+
+.jumbo-portfolio ul {
+  color: white;
+}
+
+.left, img {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  max-height: 100%;
+}
+
+.left img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 0;
+     object-position: 0 0;
+}
+
+.right {
+  padding: 5px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 20px;
+  color: black;
+  border: 2px solid #FBBF24;
+}
+
+.sito-titolo {
+  font-size: 30px;
+  color: red;
+  margin-bottom: 5px;
+}
+
+.sito-desc {
+  margin-bottom: 3px;
+  color: white;
+}
+
 .container{
   width: 100%;
 }

@@ -12,7 +12,9 @@ window.Vue = require('vue').default;
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('contenuto', require('./components/content.vue').default);
-
+Vue.component('info', require('./components/info.vue').default);
+Vue.component('about', require('./components/about.vue').default);
+Vue.component('portfolio', require('./components/portfolio.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -21,4 +23,7 @@ Vue.component('contenuto', require('./components/content.vue').default);
 
 const app = new Vue({
     el: '#app',
+    data: {
+        section: 'portfolio',
+    },
 });
