@@ -3,7 +3,6 @@
 @import 'tailwindcss/utilities';
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=VT323&display=swap');
-
 @layer base {
     ::-webkit-scrollbar {
         width: 6px;
@@ -31,22 +30,21 @@
 
     .links {
 
-        @apply mr-10 cursor-pointer uppercase;
+        @apply mr-2 cursor-pointer uppercase;
     }
 
     .collegamenti {
         position: absolute;
         z-index: 2;
-        top: 150px;
-        transform: rotate(5.6deg);
+        width: 100vw;
+        height: 150px;
+        top: 80px;
+        background-color: #FBBF24;
     }
 
     .links:hover .dropdown {
-        @apply block absolute;
-    }
-
-    .links:hover .dropdown.contatti {
-        @apply block absolute right-0;
+        @apply flex absolute;
+        right: 2px;
     }
 
     .links:hover span:nth-child(2) {
@@ -56,12 +54,36 @@
     .links:hover span:first-child {
         @apply text-red-600 animate-ping
     }
+
+    .fa-hamburger, .fa-bars {
+        color: #1E3A8A;
+        background-color: transparent;
+        font-size: 45px;
+    }
+
+    .fa-hamburger {
+        display: none;
+    }
+
+    .hamburger:hover .fa-bars {
+        display: none;
+    }
+
+    .hamburger:hover .fa-hamburger {
+        display: block;
+    }
+
+    .hide {
+        display: none !important;
+    }
+
     .titolo {
-        position: absolute;
-        transform: rotate(-16deg);
+        /* position: absolute;
+         transform: rotate(-41deg) translate(36%);
+         z-index: 2;
+         top: 162px;*/
         z-index: 2;
-        top: 75px;
-        @apply text-3xl font-extrabold text-blue-900 cursor-pointer;
+        @apply xs:text-2xl font-extrabold text-blue-900 cursor-pointer;
     }
 
     .titolo:hover span {
@@ -88,6 +110,10 @@
 
     .jumbo {
         @apply px-16;
+    }
+
+    .jumbo h2 {
+        @apply xs:text-4xl w-full pl-3 mt-8;
     }
 
     .jumbo h3 {

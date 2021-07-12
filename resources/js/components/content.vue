@@ -6,10 +6,10 @@
                         Dev Buddies
                     </span>
         </div>
-        <div class="grid grid-cols-5 border-1 w-full h-full">
+        <div class="grid grid-cols-5 w-full h-full">
             <aside class="relative flex flex-col justify-center col-start-1 col-end-2">
             </aside>
-            <div class="jumbo col-start-2 col-end-5 flex flex-col justify-center">
+            <div class="jumbo xs:p-0 col-start-2 col-end-5 flex flex-col justify-center">
                 <h2>{ templarec.dev }</h2>
                 <h3>Lorenzo Bernini</h3>
                 <h4>Full Stack Web Developer</h4>

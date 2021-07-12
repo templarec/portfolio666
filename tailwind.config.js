@@ -13,6 +13,11 @@ module.exports = {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
                 body: ['VT323', 'monospace'],
             },
+            screens: {
+                'xs': [
+                    {'min': '374px', 'max': '639px'}
+                ]
+            }
         },
     },
 

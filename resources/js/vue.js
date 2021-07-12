@@ -1,5 +1,8 @@
 window.Vue = require('vue').default;
 
+const $ = require('jquery');
+
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -24,6 +27,17 @@ Vue.component('portfolio', require('./components/portfolio.vue').default);
 const app = new Vue({
     el: '#app',
     data: {
-        section: 'portfolio',
+        section: 'home',
     },
+    methods: {
+        showHaMenu: function () {
+            let dropdown = $('.collegamenti');
+            if (dropdown.hasClass('hide')) {
+                dropdown.removeClass('hide');
+            } else {
+                dropdown.addClass('hide')
+            }
+
+        }
+    }
 });
