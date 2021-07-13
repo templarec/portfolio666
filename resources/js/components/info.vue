@@ -18,7 +18,7 @@
                     <li><img src="/icons/scss.webp" alt="css3 icon">SCSS</li>
                     <li><img src="/icons/icons8-javascript-100.png" alt="css3 icon">Javascript</li>
                     <li><img src="/icons/icons8-vue-js-100.png" alt="css3 icon">Vue.js</li>
-                    <li><img src="/icons/icons8-jquery-100.png" alt="css3 icon">JQuery</li>
+                    <li><img class="jquery" src="/icons/icons8-jquery-100.png" alt="css3 icon">JQuery</li>
                     <li><img src="/icons/icons8-mysql-logo-100.png" alt="css3 icon">MySql</li>
                     <li><img src="/icons/icons8-php-logo-100.png" alt="css3 icon">PHP</li>
                     <li><img src="/icons/icons8-laravel-100.png" alt="css3 icon">Laravel</li>

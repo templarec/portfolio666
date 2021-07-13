@@ -14,28 +14,28 @@
 </head>
 <body class="font-body antialiased">
 <div id="app">
-    <div class="min-h-screen w-screen bg-blue-900">
+    <div class="min-h-screen w-screen">
 
         <!-- Page Heading -->
-        <header class="bg-yellow-400 grid grid-cols-5 shadow flex justify-between items-center py-4">
-            <div class="xs:flex sm:hidden xs:col-start-1 xs:col-end-3 flex p-1">
+        <header class="grid grid-cols-5 shadow flex justify-between items-center py-4">
+            <div class="xs:flex sm:hidden xs:col-start-1 xs:col-end-1 flex xs:justify-between pl-2">
                 <div @click="showHaMenu()" class="hamburger">
                     <i class="fas fa-hamburger"></i>
                     <i class="fas fa-bars"></i>
                 </div>
             </div>
-            <div class="xs:col-span-2 flex justify-end">
+            <div class="xs:col-span-2 xs:col-start-3 xs:col-start-5 flex pr-2 justify-end">
                 <h1 class="titolo xs:whitespace-nowrap" @click="section = 'home'"><span>{</span> templarec.dev
                     <span>}</span></h1>
             </div>
-            <ul class="collegamenti hide xs:absolute flex xs:justify-center xs:items-center w-full text-blue-900 ">
+            <ul class="collegamenti hide xs:absolute flex xs:justify-center xs:items-center w-full">
                 <li @click="section = 'info'" class="links"><span>.</span>Info</li>
                 <li @click="section = 'about'" class="links"><span>.</span>About</li>
                 <li class="links">
                     <span>.</span><span class="tttx" @click="section = 'portfolio'">Portfolio</span>
                 </li>
                 <li class="links relative"><span>.</span><span>Contatti</span>
-                    <div class="dropdown contatti hidden bg-yellow-400 border-2 border-blue-900">
+                    <div class="dropdown contatti hidden">
                         <ul class="flex flex-col">
                             <li><a href="mailto:templarec@gmail.com">@E-mail</a></li>
                             <li><a href="https://www.linkedin.com/in/templarec/" target="_blank">.Linkedin</a></li>
@@ -55,7 +55,7 @@
         </header>
 
         <!-- Page Content -->
-        <main>
+        <main @click="closeDropdown()">
             @yield('content')
         </main>
     </div>

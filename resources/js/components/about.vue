@@ -7,10 +7,16 @@
             </aside>
             <div class="jumbo-about flex flex-col col-span-5">
                 <p class="w-full p-4">
-                    Nato a Padova il 17/07/1986, appassionato di informatica sin da bambino.
+                    Nato a Padova il 17/07/1986, appassionato di
+                    <mark>informatica</mark>
+                    sin da bambino.
                     <br>Ho conseguito il diploma di perito informatico nel 2006 all'ITI Galileo Ferraris di Padova.
                     <br>Ho frequentato la facoltà di Informatica dell'Università di Udine, città dove risiedo tutt'ora.
-                    <br>Ho frequentato il corso Boolean Careers per diventare Jr. Full Stack Web Developer nel primo
+                    <br>Ho frequentato il corso
+                    <mark>Boolean Careers</mark>
+                    per diventare
+                    <mark>Jr. Full Stack Web Developer</mark>
+                    nel primo
                     semestre del 2021.
                     <br>Oltre l'informatica e la programmazione, i miei interessi sono la meditazione e la filosofia
                     orientale.

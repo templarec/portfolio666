@@ -42,6 +42,10 @@ const app = new Vue({
             }
 
         },
+        closeDropdown: function () {
+            let dropdown = $('.collegamenti');
+            dropdown.addClass('hide');
+        },
         showOverflow: function () {
             var docWidth = document.documentElement.offsetWidth;
 

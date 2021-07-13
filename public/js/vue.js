@@ -41,6 +41,9 @@
 //
 //
 //
+//
+//
+//
             /* harmony default export */
             const __WEBPACK_DEFAULT_EXPORT__ = ({
                 name: "about"
@@ -11605,8 +11608,10 @@
                             _c("div", {staticClass: "jumbo-about flex flex-col col-span-5"}, [
                                 _c("p", {staticClass: "w-full p-4"}, [
                                     _vm._v(
-                                        "\n                Nato a Padova il 17/07/1986, appassionato di informatica sin da bambino.\n                "
+                                        "\n                Nato a Padova il 17/07/1986, appassionato di\n                "
                                     ),
+                                    _c("mark", [_vm._v("informatica")]),
+                                    _vm._v(" sin da bambino.\n                "),
                                     _c("br"),
                                     _vm._v(
                                         "Ho conseguito il diploma di perito informatico nel 2006 all'ITI Galileo Ferraris di Padova.\n                "
@@ -11616,8 +11621,12 @@
                                         "Ho frequentato la facoltà di Informatica dell'Università di Udine, città dove risiedo tutt'ora.\n                "
                                     ),
                                     _c("br"),
+                                    _vm._v("Ho frequentato il corso\n                "),
+                                    _c("mark", [_vm._v("Boolean Careers")]),
+                                    _vm._v(" per diventare\n                "),
+                                    _c("mark", [_vm._v("Jr. Full Stack Web Developer")]),
                                     _vm._v(
-                                        "Ho frequentato il corso Boolean Careers per diventare Jr. Full Stack Web Developer nel primo\n                semestre del 2021.\n                "
+                                        " nel primo\n                semestre del 2021.\n                "
                                     ),
                                     _c("br"),
                                     _vm._v(
@@ -11827,6 +11836,7 @@
                                             _vm._v(" "),
                                             _c("li", [
                                                 _c("img", {
+                                                    staticClass: "jquery",
                                                     attrs: {
                                                         src: "/icons/icons8-jquery-100.png",
                                                         alt: "css3 icon"
@@ -25020,6 +25030,10 @@
                     } else {
                         dropdown.addClass('hide');
                     }
+                },
+                closeDropdown: function closeDropdown() {
+                    var dropdown = $('.collegamenti');
+                    dropdown.addClass('hide');
                 },
                 showOverflow: function showOverflow() {
                     var docWidth = document.documentElement.offsetWidth;
