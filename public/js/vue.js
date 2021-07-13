@@ -11606,7 +11606,7 @@
                                 "div",
                                 {staticClass: "jumbo-about flex flex-col col-span-5 pt-16"},
                                 [
-                                    _c("p", {staticClass: "mt-24 w-full  p-4"}, [
+                                    _c("p", {staticClass: "mt-24 w-full xs:overflow-y-scroll p-4"}, [
                                         _vm._v(
                                             "\n                Nato a Padova il 17/07/1986, appassionato di informatica sin da bambino.\n                "
                                         ),
@@ -25013,7 +25013,7 @@
         var app = new Vue({
             el: '#app',
             data: {
-                section: 'portfolio'
+                section: 'about'
             },
             created: function created() {
                 this.showOverflow();
