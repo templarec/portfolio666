@@ -3,7 +3,7 @@
 
         <div class="grid grid-cols-5">
             <div class="jumbo-portfolio flex flex-col xs:col-span-5 sm:col-start-2 sm:col-end-5">
-                <div class="grid grid-rows-6 gap-y-6">
+                <div class="sm:grid sm:grid-rows-6 sm:gap-y-6">
                     <div class="sito walfood sm:h-48">
                         <div class="grid xs:grid-rows-2  sm:sm:grid-cols-3 sm:sm:gap-x-2 w-full h-full">
                             <a class="inline-block" href="http://www.bearwebdesign.eu/">

@@ -11949,7 +11949,7 @@
                                             "jumbo-portfolio flex flex-col xs:col-span-5 sm:col-start-2 sm:col-end-5"
                                     },
                                     [
-                                        _c("div", {staticClass: "grid grid-rows-6 gap-y-6"}, [
+                                        _c("div", {staticClass: "sm:grid sm:grid-rows-6 sm:gap-y-6"}, [
                                             _c("div", {staticClass: "sito walfood sm:h-48"}, [
                                                 _c(
                                                     "div",
@@ -25013,7 +25013,7 @@
         var app = new Vue({
             el: '#app',
             data: {
-                section: 'home'
+                section: 'portfolio'
             },
             created: function created() {
                 this.showOverflow();
