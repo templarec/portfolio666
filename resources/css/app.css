@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=VT323&display=swap');
 @layer base {
     ::-webkit-scrollbar {
-        width: 6px;
+        width: 0;
         height: 6px;
     }
 
@@ -105,15 +105,12 @@
     }
 
     main {
-        height: calc(100vh - 230px);
+        height: calc(100vh - 80px);
         max-width: 100vw;
-        @apply xs:h-screen text-5xl text-yellow-400;
+        padding-top: 150px;
+        overflow-y: scroll;
+        @apply text-5xl text-yellow-400;
     }
-
-    aside, .jumbo {
-        height: calc(100vh - 115px);
-    }
-
     .jumbo {
         @apply px-16;
     }
@@ -153,30 +150,29 @@
         transform: rotate(-90deg);
     }
 
-    .custom-shape-divider-top-1626026182 {
+    .onda-triangolare {
+        top: 80px;
         position: absolute;
-        top: 74px;
-        left: 0;
         width: 100%;
         overflow: hidden;
         line-height: 0;
         transform: rotate(180deg);
     }
 
-    .custom-shape-divider-top-1626026182 svg {
+    .onda-triangolare svg {
         position: relative;
         display: block;
         width: 100%;
         height: 150px;
     }
 
-    .custom-shape-divider-top-1626026182 .shape-fill {
+    .onda-triangolare .shape-fill {
         fill: #FBBF24;
+
     }
 
     .jumbo-hard-skills {
         font-size: 20px;
-        padding-top: 10rem;
     }
 
     .jumbo-hard-skills h2 {
@@ -229,17 +225,10 @@
     .jumbo-about p {
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
-        line-height: 30px;
+        line-height: 25px;
         text-align: justify;
     }
 
-    .grandone {
-        height: calc(100vh - 225px);
-        margin-top: 145px;
-        scrollbar-width: thin;
-        scrollbar-color: #FBBF24 transparent;
-        overflow-x: hidden
-    }
 
     .jumbo-portfolio ul {
         color: white;
@@ -267,7 +256,16 @@
         border-bottom-right-radius: 20px;
         font-size: 20px;
         color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sito > div {
         border: 2px solid #FBBF24;
+        @apply xs:rounded-tl-xl xs:rounded-tr-xl;
     }
 
     .sito-titolo {

@@ -1,5 +1,5 @@
 <template>
-    <div class="grandone xs:h-screen w-full overflow-scroll xs:pt-4 xs:px-5">
+    <div class="grandone w-full overflow-scroll xs:pt-1 xs:px-5">
 
         <div class="grid grid-cols-5">
             <div class="jumbo-portfolio flex flex-col xs:col-span-5 sm:col-start-2 sm:col-end-5">
@@ -32,7 +32,7 @@
                         </div>
                     </div>
                     <div class="sito boolzapp sm:h-48">
-                        <div class="grid xs:grid-rows-2  sm:grid-cols-3 sm:sm:gap-x-2 w-full h-full mb-5">
+                        <div class="grid xs:grid-rows-2  sm:grid-cols-3 sm:gap-x-2 w-full h-full mb-5">
                             <a class="inline-block" href="https://templarec.github.io/vue-boolzapp/">
                                 <div class="left flex justify-center left max-sm:h-48">
                                     <img class="xs:rounded-tl-xl xs:rounded-tr-xl xs:rounded-bl-none"
@@ -55,7 +55,7 @@
                         </div>
                     </div>
                     <div class="sito laravel-comics sm:h-48">
-                        <div class="grid xs:grid-rows-2  sm:grid-cols-3 sm:sm:gap-x-2 w-full h-full mb-5">
+                        <div class="grid xs:grid-rows-2  sm:grid-cols-3 sm:gap-x-2 w-full h-full mb-5">
                             <a class="inline-block" href="">
                                 <div class="left flex justify-center left h-full w-full max-sm:h-48">
                                     <img class="xs:rounded-tl-xl xs:rounded-tr-xl xs:rounded-bl-none"
@@ -78,7 +78,7 @@
                         </div>
                     </div>
                     <div class="sito eduprime sm:h-48">
-                        <div class="grid xs:grid-rows-2  sm:grid-cols-3 sm:sm:gap-x-2 w-full h-full mb-5">
+                        <div class="grid xs:grid-rows-2  sm:grid-cols-3 sm:gap-x-2 w-full h-full mb-5">
                             <a class="inline-block" href="https://www.bearwebdesign.it/EduPrime/">
                                 <div class="left flex justify-center left h-full max-sm:h-48">
                                     <img class="xs:rounded-tl-xl xs:rounded-tr-xl xs:rounded-bl-none"
@@ -100,7 +100,7 @@
                         </div>
                     </div>
                     <div class="sito museek sm:h-48">
-                        <div class="grid xs:grid-rows-2  sm:grid-cols-3 sm:sm:gap-x-2 w-full h-full mb-5">
+                        <div class="grid xs:grid-rows-2  sm:grid-cols-3 sm:gap-x-2 w-full h-full mb-5">
                             <a class="inline-block" href="https://museek.eu">
                                 <div class="left flex justify-center left h-full max-sm:h-48">
                                     <img class="xs:rounded-tl-xl xs:rounded-tr-xl xs:rounded-bl-none"
@@ -118,7 +118,7 @@
                         </div>
                     </div>
                     <div class="sito portfolio-launcher sm:h-48">
-                        <div class="grid xs:grid-rows-2  sm:grid-cols-3 sm:sm:gap-x-2 w-full h-full mb-5">
+                        <div class="grid xs:grid-rows-2  sm:grid-cols-3 sm:gap-x-2 w-full h-full mb-5">
                             <a class="inline-block" href="https://templarec.github.io/PortfolioLauncher/">
                                 <div class="left flex justify-center left h-full w-full max-sm:h-48">
                                     <img class="xs:rounded-tl-xl xs:rounded-tr-xl xs:rounded-bl-none" src="/img/crt.png"

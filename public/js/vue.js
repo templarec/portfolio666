@@ -11586,7 +11586,7 @@
                     var _vm = this
                     var _h = _vm.$createElement
                     var _c = _vm._self._c || _h
-                    return _c("div", {staticClass: "w-full h-full overflow-hidden"}, [
+                    return _c("div", {staticClass: "w-full h-full"}, [
                         _c("div", {staticClass: "grid grid-cols-5 border-1 w-full h-full"}, [
                             _c(
                                 "aside",
@@ -11602,37 +11602,33 @@
                                 ]
                             ),
                             _vm._v(" "),
-                            _c(
-                                "div",
-                                {staticClass: "jumbo-about flex flex-col col-span-5 pt-16"},
-                                [
-                                    _c("p", {staticClass: "mt-24 w-full xs:overflow-y-scroll p-4"}, [
-                                        _vm._v(
-                                            "\n                Nato a Padova il 17/07/1986, appassionato di informatica sin da bambino.\n                "
-                                        ),
-                                        _c("br"),
-                                        _vm._v(
-                                            "Ho conseguito il diploma di perito informatico nel 2006 all'ITI Galileo Ferraris di Padova.\n                "
-                                        ),
-                                        _c("br"),
-                                        _vm._v(
-                                            "Ho frequentato la facoltà di Informatica dell'Università di Udine, città dove risiedo tutt'ora.\n                "
-                                        ),
-                                        _c("br"),
-                                        _vm._v(
-                                            "Ho frequentato il corso Boolean Careers per diventare Jr. Full Stack Web Developer nel primo\n                semestre del 2021.\n                "
-                                        ),
-                                        _c("br"),
-                                        _vm._v(
-                                            "Oltre l'informatica e la programmazione, i miei interessi sono la meditazione e la filosofia\n                orientale.\n                "
-                                        ),
-                                        _c("br"),
-                                        _vm._v(
-                                            "Ho una figlia adolescente e sono proprietario di 5 gatti.\n            "
-                                        )
-                                    ])
-                                ]
-                            )
+                            _c("div", {staticClass: "jumbo-about flex flex-col col-span-5"}, [
+                                _c("p", {staticClass: "w-full p-4"}, [
+                                    _vm._v(
+                                        "\n                Nato a Padova il 17/07/1986, appassionato di informatica sin da bambino.\n                "
+                                    ),
+                                    _c("br"),
+                                    _vm._v(
+                                        "Ho conseguito il diploma di perito informatico nel 2006 all'ITI Galileo Ferraris di Padova.\n                "
+                                    ),
+                                    _c("br"),
+                                    _vm._v(
+                                        "Ho frequentato la facoltà di Informatica dell'Università di Udine, città dove risiedo tutt'ora.\n                "
+                                    ),
+                                    _c("br"),
+                                    _vm._v(
+                                        "Ho frequentato il corso Boolean Careers per diventare Jr. Full Stack Web Developer nel primo\n                semestre del 2021.\n                "
+                                    ),
+                                    _c("br"),
+                                    _vm._v(
+                                        "Oltre l'informatica e la programmazione, i miei interessi sono la meditazione e la filosofia\n                orientale.\n                "
+                                    ),
+                                    _c("br"),
+                                    _vm._v(
+                                        "Ho una figlia adolescente e sono proprietario di 5 gatti.\n            "
+                                    )
+                                ])
+                            ])
                         ])
                     ])
                 }
@@ -11669,14 +11665,14 @@
                     var _vm = this
                     var _h = _vm.$createElement
                     var _c = _vm._self._c || _h
-                    return _c("div", {staticClass: "w-full h-full"}, [
+                    return _c("div", [
                         _c("div", {staticClass: "partners"}, [
                             _c("span", {staticClass: "inline-block"}, [
                                 _vm._v("\n                    Dev Buddies\n                ")
                             ])
                         ]),
                         _vm._v(" "),
-                        _c("div", {staticClass: "grid grid-cols-5 w-full h-full"}, [
+                        _c("div", {staticClass: "grid grid-cols-5"}, [
                             _c("aside", {
                                 staticClass:
                                     "relative flex flex-col justify-center col-start-1 col-end-2"
@@ -11743,7 +11739,7 @@
                                 "div",
                                 {
                                     staticClass:
-                                        "jumbo-hard-skills xs:h-screen xs:overflow-scroll col-span-5 w-full flex flex-col xs:items-center"
+                                        "jumbo-hard-skills col-span-5 w-full flex flex-col xs:items-center"
                                 },
                                 [
                                     _c("h2", [_vm._v("Lorenzo Bernini")]),
@@ -11936,10 +11932,7 @@
                     var _c = _vm._self._c || _h
                     return _c(
                         "div",
-                        {
-                            staticClass:
-                                "grandone xs:h-screen w-full overflow-scroll xs:pt-4 xs:px-5"
-                        },
+                        {staticClass: "grandone w-full overflow-scroll xs:pt-1 xs:px-5"},
                         [
                             _c("div", {staticClass: "grid grid-cols-5"}, [
                                 _c(
@@ -12035,7 +12028,7 @@
                                                     "div",
                                                     {
                                                         staticClass:
-                                                            "grid xs:grid-rows-2  sm:grid-cols-3 sm:sm:gap-x-2 w-full h-full mb-5"
+                                                            "grid xs:grid-rows-2  sm:grid-cols-3 sm:gap-x-2 w-full h-full mb-5"
                                                     },
                                                     [
                                                         _c(
@@ -12115,7 +12108,7 @@
                                                     "div",
                                                     {
                                                         staticClass:
-                                                            "grid xs:grid-rows-2  sm:grid-cols-3 sm:sm:gap-x-2 w-full h-full mb-5"
+                                                            "grid xs:grid-rows-2  sm:grid-cols-3 sm:gap-x-2 w-full h-full mb-5"
                                                     },
                                                     [
                                                         _c(
@@ -12186,7 +12179,7 @@
                                                     "div",
                                                     {
                                                         staticClass:
-                                                            "grid xs:grid-rows-2  sm:grid-cols-3 sm:sm:gap-x-2 w-full h-full mb-5"
+                                                            "grid xs:grid-rows-2  sm:grid-cols-3 sm:gap-x-2 w-full h-full mb-5"
                                                     },
                                                     [
                                                         _c(
@@ -12260,7 +12253,7 @@
                                                     "div",
                                                     {
                                                         staticClass:
-                                                            "grid xs:grid-rows-2  sm:grid-cols-3 sm:sm:gap-x-2 w-full h-full mb-5"
+                                                            "grid xs:grid-rows-2  sm:grid-cols-3 sm:gap-x-2 w-full h-full mb-5"
                                                     },
                                                     [
                                                         _c(
@@ -12319,7 +12312,7 @@
                                                     "div",
                                                     {
                                                         staticClass:
-                                                            "grid xs:grid-rows-2  sm:grid-cols-3 sm:sm:gap-x-2 w-full h-full mb-5"
+                                                            "grid xs:grid-rows-2  sm:grid-cols-3 sm:gap-x-2 w-full h-full mb-5"
                                                     },
                                                     [
                                                         _c(
@@ -25013,7 +25006,7 @@
         var app = new Vue({
             el: '#app',
             data: {
-                section: 'about'
+                section: 'home'
             },
             created: function created() {
                 this.showOverflow();

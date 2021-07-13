@@ -27,7 +27,7 @@ Vue.component('portfolio', require('./components/portfolio.vue').default);
 const app = new Vue({
     el: '#app',
     data: {
-        section: 'about',
+        section: 'home',
     },
     created() {
         this.showOverflow()

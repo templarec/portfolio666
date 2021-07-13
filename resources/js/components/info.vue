@@ -5,7 +5,7 @@
             <aside class="relative xs:hidden flex flex-col justify-center col-start-1 col-end-2">
             </aside>
             <div
-                class="jumbo-hard-skills xs:h-screen xs:overflow-scroll col-span-5 w-full flex flex-col xs:items-center">
+                class="jumbo-hard-skills col-span-5 w-full flex flex-col xs:items-center">
                 <h2>Lorenzo Bernini</h2>
                 <h3>Full Stack Web Developer</h3>
                 <p class="text-2xl mb-10"><a href="/docs/CV_Bernini_Lorenzo.pdf">Scarica CV</a></p>

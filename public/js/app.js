@@ -1960,9 +1960,9 @@
 /***/ }),
 
 /***/ "./resources/js/app.js":
-/*!*****************************!*\
-  !*** ./resources/js/app.js ***!
-  \*****************************/
+        /*!*****************************!*\
+          !*** ./resources/js/app.js ***!
+          \*****************************/
         /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
             /**

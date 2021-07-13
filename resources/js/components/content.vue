@@ -1,12 +1,12 @@
 <template>
-    <div class="w-full h-full">
+    <div>
 
         <div class="partners">
                     <span class="inline-block">
                         Dev Buddies
                     </span>
         </div>
-        <div class="grid grid-cols-5 w-full h-full">
+        <div class="grid grid-cols-5">
             <aside class="relative flex flex-col justify-center col-start-1 col-end-2">
             </aside>
             <div class="jumbo xs:p-0 col-start-2 col-end-5 flex flex-col justify-center">
