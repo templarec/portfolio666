@@ -11955,7 +11955,7 @@
                                                     "div",
                                                     {
                                                         staticClass:
-                                                            "grid xs:grid-rows-2  sm:sm:grid-cols-3 sm:sm:gap-x-2 w-full h-full"
+                                                            "grid xs:grid-rows-2  sm:grid-cols-3 sm:sm:gap-x-2 w-full h-full mb-5"
                                                     },
                                                     [
                                                         _c(
@@ -12035,7 +12035,7 @@
                                                     "div",
                                                     {
                                                         staticClass:
-                                                            "grid sm:grid-cols-3 sm:gap-x-2 w-full h-full"
+                                                            "grid xs:grid-rows-2  sm:grid-cols-3 sm:sm:gap-x-2 w-full h-full mb-5"
                                                     },
                                                     [
                                                         _c(
@@ -12115,7 +12115,7 @@
                                                     "div",
                                                     {
                                                         staticClass:
-                                                            "grid sm:grid-cols-3 sm:gap-x-2 w-full h-full"
+                                                            "grid xs:grid-rows-2  sm:grid-cols-3 sm:sm:gap-x-2 w-full h-full mb-5"
                                                     },
                                                     [
                                                         _c(
@@ -12186,7 +12186,7 @@
                                                     "div",
                                                     {
                                                         staticClass:
-                                                            "grid sm:grid-cols-3 sm:gap-x-2 w-full h-full"
+                                                            "grid xs:grid-rows-2  sm:grid-cols-3 sm:sm:gap-x-2 w-full h-full mb-5"
                                                     },
                                                     [
                                                         _c(
@@ -12260,7 +12260,7 @@
                                                     "div",
                                                     {
                                                         staticClass:
-                                                            "grid sm:grid-cols-3 sm:gap-x-2 w-full h-full"
+                                                            "grid xs:grid-rows-2  sm:grid-cols-3 sm:sm:gap-x-2 w-full h-full mb-5"
                                                     },
                                                     [
                                                         _c(
@@ -12319,7 +12319,7 @@
                                                     "div",
                                                     {
                                                         staticClass:
-                                                            "grid sm:grid-cols-3 sm:gap-x-2 w-full h-full"
+                                                            "grid xs:grid-rows-2  sm:grid-cols-3 sm:sm:gap-x-2 w-full h-full mb-5"
                                                     },
                                                     [
                                                         _c(
