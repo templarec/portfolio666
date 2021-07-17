@@ -1,16 +1,24 @@
 @charset "UTF-8";
+
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
+
 @font-face {
     font-family: "Font Awesome 5 Brands";
+
     font-style: normal;
+
     font-weight: 400;
+
     font-display: block;
+
     src: url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.eot?89a52ae1d02b86d6143987c865471c24);
+
     src: url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.eot?89a52ae1d02b86d6143987c865471c24) format("embedded-opentype"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff2?c1210e5ebe4344da508396540be7f52c) format("woff2"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff?329a95a9172fdb2cccb4f9347ed55233) format("woff"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.ttf?9e138496e8f1719c6ebf0abe50563635) format("truetype"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.svg?216edb96b562c79adc09e2d3c63db7c0) format("svg");
 }
+
 .fab {
     font-family: "Font Awesome 5 Brands";
     font-weight: 400;
@@ -20,14 +28,21 @@
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
+
 @font-face {
     font-family: "Font Awesome 5 Free";
+
     font-style: normal;
+
     font-weight: 400;
+
     font-display: block;
+
     src: url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.eot?4079ae2d2a15d0689568f3a5459241c7);
+
     src: url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.eot?4079ae2d2a15d0689568f3a5459241c7) format("embedded-opentype"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.woff2?68c5af1f48e2bfca1e57ae1c556a5c72) format("woff2"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.woff?3672264812746c3c7225909742da535c) format("woff"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.ttf?1017bce89c72f95bcf8e2bf4774efdbf) format("truetype"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.svg?19e27d348fefc21941e0310a0ec6339b) format("svg");
 }
+
 .far {
     font-family: "Font Awesome 5 Free";
     font-weight: 400;
@@ -37,14 +52,21 @@
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
+
 @font-face {
     font-family: "Font Awesome 5 Free";
+
     font-style: normal;
+
     font-weight: 900;
+
     font-display: block;
+
     src: url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.eot?efbd5d20e407bbf85f2b3087ee67bfa1);
+
     src: url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.eot?efbd5d20e407bbf85f2b3087ee67bfa1) format("embedded-opentype"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff2?ada6e6df937f7e5e8b790dfea07109b7) format("woff2"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff?c6ec080084769a6d8a34ab35b77999cd) format("woff"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.ttf?07c3313b24f7b1ca85ee99b4fa7db55e) format("truetype"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.svg?13de59f1a36b6cb4bca0050160ff0e41) format("svg");
 }
+
 .fa,
 .fas {
     font-family: "Font Awesome 5 Free";
@@ -55,6 +77,7 @@
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
+
 .fa,
 .fas,
 .far,
@@ -134,6 +157,7 @@
     margin-left: 2.5em;
     padding-left: 0;
 }
+
 .fa-ul > li {
     position: relative;
 }
@@ -167,6 +191,7 @@
 .fab.fa-pull-left {
     margin-right: 0.3em;
 }
+
 .fa.fa-pull-right,
 .fas.fa-pull-right,
 .far.fa-pull-right,
@@ -189,6 +214,7 @@
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
@@ -198,10 +224,12 @@
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
 }
+
 .fa-rotate-90 {
     -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
     transform: rotate(90deg);
@@ -272,6 +300,7 @@
 
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
 readers do not read off random characters that represent icons */
+
 .fa-500px:before {
     content: "";
 }

@@ -31,6 +31,10 @@ const app = new Vue({
     },
     created() {
         this.showOverflow()
+        if (window.innerWidth > 1000) {
+            let dropdown = $('.collegamenti');
+            dropdown.removeClass('hide');
+        }
     },
     methods: {
         showHaMenu: function () {

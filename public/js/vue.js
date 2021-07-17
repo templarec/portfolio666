@@ -44,6 +44,9 @@
 //
 //
 //
+//
+//
+//
             /* harmony default export */
             const __WEBPACK_DEFAULT_EXPORT__ = ({
                 name: "about"
@@ -11590,55 +11593,62 @@
                     var _h = _vm.$createElement
                     var _c = _vm._self._c || _h
                     return _c("div", {staticClass: "w-full h-full"}, [
-                        _c("div", {staticClass: "grid grid-cols-5 border-1 w-full h-full"}, [
-                            _c(
-                                "aside",
-                                {
-                                    staticClass:
-                                        "about xs:hidden relative flex flex-col items-end  col-start-1 col-end-2"
-                                },
-                                [
-                                    _c("img", {
-                                        staticClass: "mt-48",
-                                        attrs: {src: "/img/lory.jpg", alt: "Foto profilo"}
-                                    })
-                                ]
-                            ),
-                            _vm._v(" "),
-                            _c("div", {staticClass: "jumbo-about flex flex-col col-span-5"}, [
-                                _c("p", {staticClass: "w-full p-4"}, [
-                                    _vm._v(
-                                        "\n                Nato a Padova il 17/07/1986, appassionato di\n                "
-                                    ),
-                                    _c("mark", [_vm._v("informatica")]),
-                                    _vm._v(" sin da bambino.\n                "),
-                                    _c("br"),
-                                    _vm._v(
-                                        "Ho conseguito il diploma di perito informatico nel 2006 all'ITI Galileo Ferraris di Padova.\n                "
-                                    ),
-                                    _c("br"),
-                                    _vm._v(
-                                        "Ho frequentato la facoltà di Informatica dell'Università di Udine, città dove risiedo tutt'ora.\n                "
-                                    ),
-                                    _c("br"),
-                                    _vm._v("Ho frequentato il corso\n                "),
-                                    _c("mark", [_vm._v("Boolean Careers")]),
-                                    _vm._v(" per diventare\n                "),
-                                    _c("mark", [_vm._v("Jr. Full Stack Web Developer")]),
-                                    _vm._v(
-                                        " nel primo\n                semestre del 2021.\n                "
-                                    ),
-                                    _c("br"),
-                                    _vm._v(
-                                        "Oltre l'informatica e la programmazione, i miei interessi sono la meditazione e la filosofia\n                orientale.\n                "
-                                    ),
-                                    _c("br"),
-                                    _vm._v(
-                                        "Ho una figlia adolescente e sono proprietario di 5 gatti.\n            "
-                                    )
+                        _c(
+                            "div",
+                            {
+                                staticClass:
+                                    "flex-col w-full h-full flex justify-center items-center w-full"
+                            },
+                            [
+                                _c(
+                                    "aside",
+                                    {
+                                        staticClass:
+                                            "about xs:hidden relative justify-center flex flex-col items-center sm:w-1/2"
+                                    },
+                                    [
+                                        _c("img", {
+                                            staticClass: "mt-56 sm:w-1/2",
+                                            attrs: {src: "/img/lory.png", alt: "Foto profilo"}
+                                        })
+                                    ]
+                                ),
+                                _vm._v(" "),
+                                _c("div", {staticClass: "jumbo-about flex flex-col"}, [
+                                    _c("p", {staticClass: "w-full p-4"}, [
+                                        _vm._v(
+                                            "\n                Nato a Padova il 17/07/1986, appassionato di\n                "
+                                        ),
+                                        _c("mark", [_vm._v("informatica")]),
+                                        _vm._v("\n                sin da bambino.\n                "),
+                                        _c("br"),
+                                        _vm._v(
+                                            "Ho conseguito il diploma di perito informatico nel 2006 all'ITI Galileo Ferraris di Padova.\n                "
+                                        ),
+                                        _c("br"),
+                                        _vm._v(
+                                            "Ho frequentato la facoltà di Informatica dell'Università di Udine, città dove risiedo tutt'ora.\n                "
+                                        ),
+                                        _c("br"),
+                                        _vm._v("Ho frequentato il corso\n                "),
+                                        _c("mark", [_vm._v("Boolean Careers")]),
+                                        _vm._v("\n                per diventare\n                "),
+                                        _c("mark", [_vm._v("Jr. Full Stack Web Developer")]),
+                                        _vm._v(
+                                            "\n                nel primo\n                semestre del 2021.\n                "
+                                        ),
+                                        _c("br"),
+                                        _vm._v(
+                                            "Oltre l'informatica e la programmazione, i miei interessi sono la meditazione e la filosofia\n                orientale.\n                "
+                                        ),
+                                        _c("br"),
+                                        _vm._v(
+                                            "Ho una figlia adolescente e sono proprietario di 5 gatti.\n            "
+                                        )
+                                    ])
                                 ])
-                            ])
-                        ])
+                            ]
+                        )
                     ])
                 }
             ]
@@ -11748,7 +11758,7 @@
                                 "div",
                                 {
                                     staticClass:
-                                        "jumbo-hard-skills col-span-5 w-full flex flex-col xs:items-center"
+                                        "jumbo-hard-skills col-span-5 w-full flex flex-col xs:items-center sm:items-center"
                                 },
                                 [
                                     _c("h2", [_vm._v("Lorenzo Bernini")]),
@@ -11767,7 +11777,7 @@
                                         "ul",
                                         {
                                             staticClass:
-                                                "flex xs:flex-wrap mb-10 xs:items-center justify-center w-full"
+                                                "flex sm:flex-wrap sm:w-2/3 xs:flex-wrap mb-10 xs:items-center justify-center w-full"
                                         },
                                         [
                                             _c("li", [
@@ -11888,7 +11898,7 @@
                                         "ul",
                                         {
                                             staticClass:
-                                                "soft-skills w-full flex flex-col xs:items-center justify-between"
+                                                "soft-skills sm:hidden w-full flex flex-col xs:items-center justify-between"
                                         },
                                         [
                                             _c("li", [_vm._v("Problem solving")]),
@@ -11949,16 +11959,16 @@
                                     "div",
                                     {
                                         staticClass:
-                                            "jumbo-portfolio flex flex-col xs:col-span-5 sm:col-start-2 sm:col-end-5"
+                                            "jumbo-portfolio flex flex-col xs:col-span-5 sm:col-span-5 sm:px-4"
                                     },
                                     [
                                         _c("div", {staticClass: "sm:grid sm:grid-rows-6 sm:gap-y-6"}, [
-                                            _c("div", {staticClass: "sito walfood sm:h-48"}, [
+                                            _c("div", {staticClass: "sito walfood sm:h-full"}, [
                                                 _c(
                                                     "div",
                                                     {
                                                         staticClass:
-                                                            "grid xs:grid-rows-2  sm:grid-cols-3 sm:sm:gap-x-2 w-full h-full mb-5"
+                                                            "grid xs:grid-rows-2  sm:grid-cols-3 sm:gap-x-2 w-full h-full mb-5"
                                                     },
                                                     [
                                                         _c(
@@ -25020,6 +25030,11 @@
             },
             created: function created() {
                 this.showOverflow();
+
+                if (window.innerWidth > 1000) {
+                    var dropdown = $('.collegamenti');
+                    dropdown.removeClass('hide');
+                }
             },
             methods: {
                 showHaMenu: function showHaMenu() {

@@ -1,4 +1,5 @@
 const mix = require('laravel-mix');
+require('laravel-mix-purgecss');
 
 /*
  |--------------------------------------------------------------------------
@@ -13,10 +14,20 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js');
 
-mix.postCss('resources/css/app.css', 'public/css', [
+/*mix.postCss('resources/css/app.css', 'public/css', [
     require('postcss-import'),
     require('tailwindcss'),
     require('autoprefixer'),
-]);
+]).purgeCss();*/
+
+mix.postCss('resources/css/app.css', 'public/css')
+    .options({
+        postCss: [
+            require('postcss-import'),
+            require('tailwindcss'),
+            require('autoprefixer'),
+            require('postcss-purgecss-laravel')]
+    }).purgeCss();
 mix.js('resources/js/vue.js', 'public/js').vue();
-mix.sass('resources/sass/fontawesome.scss', 'public/css');
+mix.sass('resources/sass/fontawesome.scss', 'public/css').purgeCss();
+

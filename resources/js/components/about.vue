@@ -1,11 +1,11 @@
 <template>
     <div class="w-full h-full">
 
-        <div class="grid grid-cols-5 border-1 w-full h-full">
-            <aside class="about xs:hidden relative flex flex-col items-end  col-start-1 col-end-2">
-                <img class="mt-48" src="/img/lory.jpg" alt="Foto profilo">
+        <div class="flex-col w-full h-full flex justify-center items-center w-full">
+            <aside class="about xs:hidden relative justify-center flex flex-col items-center sm:w-1/2">
+                <img class="mt-56 sm:w-1/2" src="/img/lory.png" alt="Foto profilo">
             </aside>
-            <div class="jumbo-about flex flex-col col-span-5">
+            <div class="jumbo-about flex flex-col">
                 <p class="w-full p-4">
                     Nato a Padova il 17/07/1986, appassionato di
                     <mark>informatica</mark>

@@ -2,10 +2,10 @@
     <div class="grandone w-full overflow-scroll xs:pt-1 xs:px-5">
 
         <div class="grid grid-cols-5">
-            <div class="jumbo-portfolio flex flex-col xs:col-span-5 sm:col-start-2 sm:col-end-5">
+            <div class="jumbo-portfolio flex flex-col xs:col-span-5 sm:col-span-5 sm:px-4">
                 <div class="sm:grid sm:grid-rows-6 sm:gap-y-6">
-                    <div class="sito walfood sm:h-48">
-                        <div class="grid xs:grid-rows-2  sm:grid-cols-3 sm:sm:gap-x-2 w-full h-full mb-5">
+                    <div class="sito walfood sm:h-full">
+                        <div class="grid xs:grid-rows-2  sm:grid-cols-3 sm:gap-x-2 w-full h-full mb-5">
                             <a class="inline-block" href="http://www.bearwebdesign.eu/">
                                 <div class="left flex justify-center left h-full">
 
