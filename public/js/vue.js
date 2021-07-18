@@ -11604,7 +11604,7 @@
                                     "aside",
                                     {
                                         staticClass:
-                                            "about xs:hidden relative justify-center flex flex-col items-center sm:w-1/2"
+                                            "about xs:hidden relative justify-center flex flex-col items-center sm:w-1/2 md:w-1/3 lg:w-1/3"
                                     },
                                     [
                                         _c("img", {

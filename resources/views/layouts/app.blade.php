@@ -11,6 +11,28 @@
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="{{ asset('js/vue.js') }}" defer></script>
+    <!-- Primary Meta Tags -->
+    <title>{ templarec.dev } -
+        Lorenzo Bernini Portfolio</title>
+    <meta name="title" content="{ templarec.dev } -
+        Lorenzo Bernini Portfolio">
+    <meta name="description" content="Lorenzo Bernini Portfolio">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://templarec.dev/">
+    <meta property="og:title" content="{ templarec.dev } -
+        Lorenzo Bernini Portfolio">
+    <meta property="og:description" content="Lorenzo Bernini Portfolio">
+    <meta property="og:image" content="">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://templarec.dev/">
+    <meta property="twitter:title" content="{ templarec.dev } -
+        Lorenzo Bernini Portfolio">
+    <meta property="twitter:description" content="Lorenzo Bernini Portfolio">
+    <meta property="twitter:image" content="">
 </head>
 <body class="font-body antialiased">
 <div id="app">
