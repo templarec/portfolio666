@@ -24,7 +24,7 @@
     <meta property="og:title" content="{ templarec.dev } -
         Lorenzo Bernini Portfolio">
     <meta property="og:description" content="Lorenzo Bernini Portfolio">
-    <meta property="og:image" content="">
+    <meta property="og:image" content="/copertina.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
