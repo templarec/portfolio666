@@ -59,7 +59,7 @@
         background-color: var(--borders);
         color: var(--secondary);
         padding: 5px;
-        @apply xs:text-2xl
+        font-size: 1.4rem;
     }
 
     .links:hover .dropdown {

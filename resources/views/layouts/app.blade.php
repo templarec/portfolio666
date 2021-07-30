@@ -41,21 +41,21 @@
         <!-- Page Heading -->
         <header class="grid grid-cols-5 shadow flex justify-between items-center py-4">
             <div
-                class="xs:flex sm:flex sm:cols-start-1 sm:col-end-1 sm:justify-between xs:col-start-1 xs:col-end-1 flex xs:justify-between pl-2">
+                class="xs:flex sm:flex md:flex lg:flex sm:cols-start-1 sm:col-end-1 sm:justify-between xs:col-start-1 xs:col-end-1 flex xs:justify-between
+                 pl-2">
                 <div @click="showHaMenu()" class="hamburger">
                     <i class="fas fa-hamburger"></i>
                     <i class="fas fa-bars"></i>
                 </div>
             </div>
             <div
-                class="sm:col-span-2 sm:col-start-3 sm:col-start-5 xs:col-span-2 xs:col-start-3 xs:col-start-5 flex pr-2 justify-end">
-                <h1 class="titolo xs:whitespace-nowrap sm:whitespace-nowrap sm:text-4xl md:text-5xl lg:text-6xl"
-                    @click="section = 'home'"><span>{</span> templarec.dev
-                    <span>}</span></h1>
+                class="sm:col-span-2 sm:col-start-3 md:col-start-4 lg:col-start-4 sm:col-start-5 xs:col-span-2 xs:col-start-4  flex pr-2 justify-end">
+                <h1 class="titolo xs:whitespace-nowrap whitespace-nowrap sm:text-3xl md:text-4xl lg:text-5xl"
+                    @click="section = 'home'"><span>{</span> templarec.dev <span>}</span></h1>
             </div>
             <ul class="collegamenti hide  sm:absolute flex sm:justify-center sm:items-center xs:absolute flex xs:justify-center xs:items-center w-full">
-                <li @click="section = 'info'" class="links "><span>.</span>Info</li>
-                <li @click="section = 'about'" class="links"><span>.</span>About</li>
+                <li @click="section = 'info'" class="links "><span>.</span><span>Info</span></li>
+                <li @click="section = 'about'" class="links"><span>.</span><span>About</span></li>
                 <li class="links">
                     <span>.</span><span class="tttx" @click="section = 'portfolio'">Portfolio</span>
                 </li>

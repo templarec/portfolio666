@@ -11605,11 +11605,10 @@
                                     "aside",
                                     {
                                         staticClass:
-                                            "about xs:hidden relative justify-center flex flex-col items-center sm:w-1/2 md:w-1/3 lg:w-1/3"
+                                            "about pt-10 xs:hidden relative justify-center flex flex-col items-center sm:w-1/5 md:w-1/5 lg:w-1/5"
                                     },
                                     [
                                         _c("img", {
-                                            staticClass: "mt-56 sm:w-1/2",
                                             attrs: {src: "/img/lory.png", alt: "Foto profilo"}
                                         })
                                     ]
@@ -11702,7 +11701,7 @@
                                 "div",
                                 {
                                     staticClass:
-                                        "jumbo xs:p-0 col-start-2 col-end-5 flex flex-col justify-center"
+                                        "jumbo xs:p-0 xs:-ml-1.5 col-start-2 col-end-5 flex flex-col justify-center"
                                 },
                                 [
                                     _c("h2", [_vm._v("{ templarec.dev }")]),
@@ -11759,7 +11758,7 @@
                                 "div",
                                 {
                                     staticClass:
-                                        "jumbo-hard-skills col-span-5 w-full flex flex-col xs:items-center sm:items-center"
+                                        "jumbo-hard-skills col-span-5 w-full flex flex-col xs:items-center sm:items-center pt-4"
                                 },
                                 [
                                     _c("h2", [_vm._v("Lorenzo Bernini")]),
@@ -11890,16 +11889,11 @@
                                     _vm._v(" "),
                                     _c("p", {staticClass: "text-4xl"}, [_vm._v("Soft skills:")]),
                                     _vm._v(" "),
-                                    _c("img", {
-                                        staticClass: "xs:hidden",
-                                        attrs: {src: "/img/word-cloud.png", alt: "word cloud"}
-                                    }),
-                                    _vm._v(" "),
                                     _c(
                                         "ul",
                                         {
                                             staticClass:
-                                                "soft-skills sm:hidden w-full flex flex-col xs:items-center justify-between"
+                                                "soft-skills  w-full flex flex-col items-center justify-between"
                                         },
                                         [
                                             _c("li", [_vm._v("Problem solving")]),
@@ -11960,440 +11954,455 @@
                                     "div",
                                     {
                                         staticClass:
-                                            "jumbo-portfolio flex flex-col xs:col-span-5 sm:col-span-5 sm:px-4"
+                                            "jumbo-portfolio pt-10 flex flex-col xs:col-span-5 sm:col-span-5 sm:px-4"
                                     },
                                     [
-                                        _c("div", {staticClass: "sm:grid sm:grid-rows-6 sm:gap-y-6"}, [
-                                            _c("div", {staticClass: "sito walfood sm:h-full"}, [
-                                                _c(
-                                                    "div",
-                                                    {
-                                                        staticClass:
-                                                            "grid xs:grid-rows-2  sm:grid-cols-3 sm:gap-x-2 w-full h-full mb-5"
-                                                    },
-                                                    [
-                                                        _c(
-                                                            "a",
-                                                            {
-                                                                staticClass: "inline-block",
-                                                                attrs: {href: "http://www.bearwebdesign.eu/"}
-                                                            },
-                                                            [
-                                                                _c(
-                                                                    "div",
-                                                                    {
-                                                                        staticClass:
-                                                                            "left flex justify-center left h-full"
-                                                                    },
-                                                                    [
-                                                                        _c("img", {
-                                                                            staticClass:
-                                                                                "xs:rounded-tl-xl xs:rounded-tr-xl xs:rounded-bl-none",
-                                                                            attrs: {
-                                                                                src: "/img/walfood.png",
-                                                                                alt: "walfood Screenshot"
-                                                                            }
-                                                                        })
-                                                                    ]
-                                                                )
-                                                            ]
-                                                        ),
-                                                        _vm._v(" "),
-                                                        _c(
-                                                            "div",
-                                                            {
-                                                                staticClass:
-                                                                    "right sm:col-span-2 h-full w-full\n                                xs:rounded-tl-none xs:rounded-tr-none xs:rounded-bl-xl xs:rounded-br-xl\n                            "
-                                                            },
-                                                            [
-                                                                _c("p", {staticClass: "sito-titolo"}, [
-                                                                    _vm._v("Walfood Delivery")
-                                                                ]),
-                                                                _vm._v(" "),
-                                                                _c("p", {staticClass: "sito-desc"}, [
-                                                                    _vm._v("Progetto finale del corso "),
+                                        _c(
+                                            "div",
+                                            {
+                                                staticClass:
+                                                    "sm:grid sm:grid-rows-6 md:grid md:grid-rows-6 lg:grid lg:grid-rows-6 sm:gap-y-6 md:gap-y-6 lg:gap-y-6"
+                                            },
+                                            [
+                                                _c("div", {staticClass: "sito walfood sm:h-full"}, [
+                                                    _c(
+                                                        "div",
+                                                        {
+                                                            staticClass:
+                                                                "grid xs:grid-rows-2  sm:grid-cols-3 sm:gap-x-2 w-full h-full mb-5"
+                                                        },
+                                                        [
+                                                            _c(
+                                                                "a",
+                                                                {
+                                                                    staticClass: "inline-block",
+                                                                    attrs: {href: "http://www.bearwebdesign.eu/"}
+                                                                },
+                                                                [
                                                                     _c(
-                                                                        "a",
-                                                                        {attrs: {href: "https://boolean.careers"}},
-                                                                        [_vm._v("Boolean")]
+                                                                        "div",
+                                                                        {
+                                                                            staticClass:
+                                                                                "left flex justify-center left h-full"
+                                                                        },
+                                                                        [
+                                                                            _c("img", {
+                                                                                staticClass:
+                                                                                    "xs:rounded-tl-xl xs:rounded-tr-xl xs:rounded-bl-none",
+                                                                                attrs: {
+                                                                                    src: "/img/walfood.png",
+                                                                                    alt: "walfood Screenshot"
+                                                                                }
+                                                                            })
+                                                                        ]
                                                                     )
-                                                                ]),
-                                                                _vm._v(" "),
-                                                                _c("p", {staticClass: "sito-desc"}, [
-                                                                    _vm._v(
-                                                                        "Walfood è un sito di food delivery che prende spunto da\n                                Deliveroo"
-                                                                    )
-                                                                ]),
-                                                                _vm._v(" "),
-                                                                _c("p", {staticClass: "sito-desc"}, [
-                                                                    _vm._v(
-                                                                        "Tecnologie utilizzate: HTML, CSS, SCSS, Bootstrap, Vue.js,\n                                Laravel"
-                                                                    )
-                                                                ]),
-                                                                _vm._v(" "),
-                                                                _c("ul", [
-                                                                    _c("li", [
-                                                                        _vm._v("Ordine e pagamento tramite Braintree")
+                                                                ]
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                                "div",
+                                                                {
+                                                                    staticClass:
+                                                                        "right sm:col-span-2 h-full w-full\n                                xs:rounded-tl-none xs:rounded-tr-none xs:rounded-bl-xl xs:rounded-br-xl\n                            "
+                                                                },
+                                                                [
+                                                                    _c("p", {staticClass: "sito-titolo"}, [
+                                                                        _vm._v("Walfood Delivery")
                                                                     ]),
                                                                     _vm._v(" "),
-                                                                    _c("li", [_vm._v("Dashboard Ristoratore")])
-                                                                ])
-                                                            ]
-                                                        )
-                                                    ]
-                                                )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", {staticClass: "sito boolzapp sm:h-48"}, [
-                                                _c(
-                                                    "div",
-                                                    {
-                                                        staticClass:
-                                                            "grid xs:grid-rows-2  sm:grid-cols-3 sm:gap-x-2 w-full h-full mb-5"
-                                                    },
-                                                    [
-                                                        _c(
-                                                            "a",
-                                                            {
-                                                                staticClass: "inline-block",
-                                                                attrs: {
-                                                                    href: "https://templarec.github.io/vue-boolzapp/"
-                                                                }
-                                                            },
-                                                            [
-                                                                _c(
-                                                                    "div",
-                                                                    {
-                                                                        staticClass:
-                                                                            "left flex justify-center left max-sm:h-48"
-                                                                    },
-                                                                    [
-                                                                        _c("img", {
-                                                                            staticClass:
-                                                                                "xs:rounded-tl-xl xs:rounded-tr-xl xs:rounded-bl-none",
-                                                                            attrs: {
-                                                                                src: "/img/boolzapp.png",
-                                                                                alt: "boolzapp Screenshot"
-                                                                            }
-                                                                        })
-                                                                    ]
-                                                                )
-                                                            ]
-                                                        ),
-                                                        _vm._v(" "),
-                                                        _c(
-                                                            "div",
-                                                            {
-                                                                staticClass:
-                                                                    "right sm:col-span-2 h-full w-full\n                                xs:rounded-tl-none xs:rounded-tr-none xs:rounded-bl-xl xs:rounded-br-xl\n                            "
-                                                            },
-                                                            [
-                                                                _c("p", {staticClass: "sito-titolo"}, [
-                                                                    _vm._v("Boolzapp")
-                                                                ]),
-                                                                _vm._v(" "),
-                                                                _c("p", {staticClass: "sito-desc"}, [
-                                                                    _vm._v("Esercizio del corso "),
-                                                                    _c(
-                                                                        "a",
-                                                                        {attrs: {href: "https://boolean.careers"}},
-                                                                        [_vm._v("Boolean")]
-                                                                    )
-                                                                ]),
-                                                                _vm._v(" "),
-                                                                _c("p", {staticClass: "sito-desc"}, [
-                                                                    _vm._v(
-                                                                        "Boolzapp la versione solo grafica di Whatsapp"
-                                                                    )
-                                                                ]),
-                                                                _vm._v(" "),
-                                                                _c("p", {staticClass: "sito-desc"}, [
-                                                                    _vm._v(
-                                                                        "Tecnologie utilizzate: HTML, CSS, SCSS, Javascript, Vue.js"
-                                                                    )
-                                                                ]),
-                                                                _vm._v(" "),
-                                                                _c("ul", [
-                                                                    _c("li", [_vm._v("Invio di messaggi")]),
+                                                                    _c("p", {staticClass: "sito-desc"}, [
+                                                                        _vm._v("Progetto finale del corso "),
+                                                                        _c(
+                                                                            "a",
+                                                                            {attrs: {href: "https://boolean.careers"}},
+                                                                            [_vm._v("Boolean")]
+                                                                        )
+                                                                    ]),
                                                                     _vm._v(" "),
-                                                                    _c("li", [_vm._v("Light e Dark theme")])
-                                                                ])
-                                                            ]
-                                                        )
-                                                    ]
-                                                )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", {staticClass: "sito laravel-comics sm:h-48"}, [
-                                                _c(
-                                                    "div",
-                                                    {
-                                                        staticClass:
-                                                            "grid xs:grid-rows-2  sm:grid-cols-3 sm:gap-x-2 w-full h-full mb-5"
-                                                    },
-                                                    [
-                                                        _c(
-                                                            "a",
-                                                            {staticClass: "inline-block", attrs: {href: ""}},
-                                                            [
-                                                                _c(
-                                                                    "div",
-                                                                    {
-                                                                        staticClass:
-                                                                            "left flex justify-center left h-full w-full max-sm:h-48"
-                                                                    },
-                                                                    [
-                                                                        _c("img", {
-                                                                            staticClass:
-                                                                                "xs:rounded-tl-xl xs:rounded-tr-xl xs:rounded-bl-none",
-                                                                            attrs: {
-                                                                                src: "/img/laravel-comics.png",
-                                                                                alt: "boolzapp Screenshot"
-                                                                            }
-                                                                        })
-                                                                    ]
-                                                                )
-                                                            ]
-                                                        ),
-                                                        _vm._v(" "),
-                                                        _c(
-                                                            "div",
-                                                            {
-                                                                staticClass:
-                                                                    "right sm:col-span-2 h-full w-full\n                                xs:rounded-tl-none xs:rounded-tr-none xs:rounded-bl-xl xs:rounded-br-xl\n                            "
-                                                            },
-                                                            [
-                                                                _c("p", {staticClass: "sito-titolo"}, [
-                                                                    _vm._v("Laravel Comics")
-                                                                ]),
-                                                                _vm._v(" "),
-                                                                _c("p", {staticClass: "sito-desc"}, [
-                                                                    _vm._v("Esercizio del corso "),
+                                                                    _c("p", {staticClass: "sito-desc"}, [
+                                                                        _vm._v(
+                                                                            "Walfood è un sito di food delivery che prende spunto da\n                                Deliveroo"
+                                                                        )
+                                                                    ]),
+                                                                    _vm._v(" "),
+                                                                    _c("p", {staticClass: "sito-desc"}, [
+                                                                        _vm._v(
+                                                                            "Tecnologie utilizzate: HTML, CSS, SCSS, Bootstrap, Vue.js,\n                                Laravel"
+                                                                        )
+                                                                    ]),
+                                                                    _vm._v(" "),
+                                                                    _c("ul", [
+                                                                        _c("li", [
+                                                                            _vm._v("Ordine e pagamento tramite Braintree")
+                                                                        ]),
+                                                                        _vm._v(" "),
+                                                                        _c("li", [_vm._v("Dashboard Ristoratore")])
+                                                                    ])
+                                                                ]
+                                                            )
+                                                        ]
+                                                    )
+                                                ]),
+                                                _vm._v(" "),
+                                                _c("div", {staticClass: "sito boolzapp sm:h-full"}, [
+                                                    _c(
+                                                        "div",
+                                                        {
+                                                            staticClass:
+                                                                "grid xs:grid-rows-2  sm:grid-cols-3 sm:gap-x-2 w-full h-full mb-5"
+                                                        },
+                                                        [
+                                                            _c(
+                                                                "a",
+                                                                {
+                                                                    staticClass: "inline-block",
+                                                                    attrs: {
+                                                                        href: "https://templarec.github.io/vue-boolzapp/"
+                                                                    }
+                                                                },
+                                                                [
                                                                     _c(
-                                                                        "a",
-                                                                        {attrs: {href: "https://boolean.careers"}},
-                                                                        [_vm._v("Boolean")]
-                                                                    )
-                                                                ]),
-                                                                _vm._v(" "),
-                                                                _c("p", {staticClass: "sito-desc"}, [
-                                                                    _vm._v("Riproduzione del sito DC Comics")
-                                                                ]),
-                                                                _vm._v(" "),
-                                                                _c("p", {staticClass: "sito-desc"}, [
-                                                                    _vm._v(
-                                                                        "Tecnologie utilizzate: HTML, CSS, SCSS, Javascript, Laravel,\n                                MySQL"
-                                                                    )
-                                                                ]),
-                                                                _vm._v(" "),
-                                                                _c("ul", [
-                                                                    _c("li", [_vm._v("Utilizzo del framework Laravel")])
-                                                                ])
-                                                            ]
-                                                        )
-                                                    ]
-                                                )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", {staticClass: "sito eduprime sm:h-48"}, [
-                                                _c(
-                                                    "div",
-                                                    {
-                                                        staticClass:
-                                                            "grid xs:grid-rows-2  sm:grid-cols-3 sm:gap-x-2 w-full h-full mb-5"
-                                                    },
-                                                    [
-                                                        _c(
-                                                            "a",
-                                                            {
-                                                                staticClass: "inline-block",
-                                                                attrs: {
-                                                                    href: "https://www.bearwebdesign.it/EduPrime/"
-                                                                }
-                                                            },
-                                                            [
-                                                                _c(
-                                                                    "div",
-                                                                    {
-                                                                        staticClass:
-                                                                            "left flex justify-center left h-full max-sm:h-48"
-                                                                    },
-                                                                    [
-                                                                        _c("img", {
+                                                                        "div",
+                                                                        {
                                                                             staticClass:
-                                                                                "xs:rounded-tl-xl xs:rounded-tr-xl xs:rounded-bl-none",
-                                                                            attrs: {
-                                                                                src: "/img/eduprime.png",
-                                                                                alt: "boolzapp Screenshot"
-                                                                            }
-                                                                        })
-                                                                    ]
-                                                                )
-                                                            ]
-                                                        ),
-                                                        _vm._v(" "),
-                                                        _c(
-                                                            "div",
-                                                            {
-                                                                staticClass:
-                                                                    "right sm:col-span-2 h-full w-full\n                                xs:rounded-tl-none xs:rounded-tr-none xs:rounded-bl-xl xs:rounded-br-xl\n                            "
-                                                            },
-                                                            [
-                                                                _c("p", {staticClass: "sito-titolo"}, [
-                                                                    _vm._v("EduPrime")
-                                                                ]),
-                                                                _vm._v(" "),
-                                                                _c("p", {staticClass: "sito-desc"}, [
-                                                                    _vm._v("Progetto individuale di metà corso "),
+                                                                                "left flex justify-center left max-sm:h-48"
+                                                                        },
+                                                                        [
+                                                                            _c("img", {
+                                                                                staticClass:
+                                                                                    "xs:rounded-tl-xl xs:rounded-tr-xl xs:rounded-bl-none",
+                                                                                attrs: {
+                                                                                    src: "/img/boolzapp.png",
+                                                                                    alt: "boolzapp Screenshot"
+                                                                                }
+                                                                            })
+                                                                        ]
+                                                                    )
+                                                                ]
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                                "div",
+                                                                {
+                                                                    staticClass:
+                                                                        "right sm:col-span-2 h-full w-full\n                                xs:rounded-tl-none xs:rounded-tr-none xs:rounded-bl-xl xs:rounded-br-xl\n                            "
+                                                                },
+                                                                [
+                                                                    _c("p", {staticClass: "sito-titolo"}, [
+                                                                        _vm._v("Boolzapp")
+                                                                    ]),
+                                                                    _vm._v(" "),
+                                                                    _c("p", {staticClass: "sito-desc"}, [
+                                                                        _vm._v("Esercizio del corso "),
+                                                                        _c(
+                                                                            "a",
+                                                                            {attrs: {href: "https://boolean.careers"}},
+                                                                            [_vm._v("Boolean")]
+                                                                        )
+                                                                    ]),
+                                                                    _vm._v(" "),
+                                                                    _c("p", {staticClass: "sito-desc"}, [
+                                                                        _vm._v(
+                                                                            "Boolzapp la versione solo grafica di Whatsapp"
+                                                                        )
+                                                                    ]),
+                                                                    _vm._v(" "),
+                                                                    _c("p", {staticClass: "sito-desc"}, [
+                                                                        _vm._v(
+                                                                            "Tecnologie utilizzate: HTML, CSS, SCSS, Javascript, Vue.js"
+                                                                        )
+                                                                    ]),
+                                                                    _vm._v(" "),
+                                                                    _c("ul", [
+                                                                        _c("li", [_vm._v("Invio di messaggi")]),
+                                                                        _vm._v(" "),
+                                                                        _c("li", [_vm._v("Light e Dark theme")])
+                                                                    ])
+                                                                ]
+                                                            )
+                                                        ]
+                                                    )
+                                                ]),
+                                                _vm._v(" "),
+                                                _c("div", {staticClass: "sito laravel-comics sm:h-full"}, [
+                                                    _c(
+                                                        "div",
+                                                        {
+                                                            staticClass:
+                                                                "grid xs:grid-rows-2  sm:grid-cols-3 sm:gap-x-2 w-full h-full mb-5"
+                                                        },
+                                                        [
+                                                            _c(
+                                                                "a",
+                                                                {staticClass: "inline-block", attrs: {href: ""}},
+                                                                [
                                                                     _c(
-                                                                        "a",
-                                                                        {attrs: {href: "https://boolean.careers"}},
-                                                                        [_vm._v("Boolean")]
+                                                                        "div",
+                                                                        {
+                                                                            staticClass:
+                                                                                "left flex justify-center left h-full w-full max-sm:h-48"
+                                                                        },
+                                                                        [
+                                                                            _c("img", {
+                                                                                staticClass:
+                                                                                    "xs:rounded-tl-xl xs:rounded-tr-xl xs:rounded-bl-none",
+                                                                                attrs: {
+                                                                                    src: "/img/laravel-comics.png",
+                                                                                    alt: "boolzapp Screenshot"
+                                                                                }
+                                                                            })
+                                                                        ]
                                                                     )
-                                                                ]),
-                                                                _vm._v(" "),
-                                                                _c("p", {staticClass: "sito-desc"}, [
-                                                                    _vm._v("Riproduzione tema di WordPress EduPrime")
-                                                                ]),
-                                                                _vm._v(" "),
-                                                                _c("p", {staticClass: "sito-desc"}, [
-                                                                    _vm._v(
-                                                                        "Tecnologie utilizzate: HTML, CSS, SCSS, Javascript, Vue.js"
+                                                                ]
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                                "div",
+                                                                {
+                                                                    staticClass:
+                                                                        "right sm:col-span-2 h-full w-full\n                                xs:rounded-tl-none xs:rounded-tr-none xs:rounded-bl-xl xs:rounded-br-xl\n                            "
+                                                                },
+                                                                [
+                                                                    _c("p", {staticClass: "sito-titolo"}, [
+                                                                        _vm._v("Laravel Comics")
+                                                                    ]),
+                                                                    _vm._v(" "),
+                                                                    _c("p", {staticClass: "sito-desc"}, [
+                                                                        _vm._v("Esercizio del corso "),
+                                                                        _c(
+                                                                            "a",
+                                                                            {attrs: {href: "https://boolean.careers"}},
+                                                                            [_vm._v("Boolean")]
+                                                                        )
+                                                                    ]),
+                                                                    _vm._v(" "),
+                                                                    _c("p", {staticClass: "sito-desc"}, [
+                                                                        _vm._v("Riproduzione del sito DC Comics")
+                                                                    ]),
+                                                                    _vm._v(" "),
+                                                                    _c("p", {staticClass: "sito-desc"}, [
+                                                                        _vm._v(
+                                                                            "Tecnologie utilizzate: HTML, CSS, SCSS, Javascript, Laravel,\n                                MySQL"
+                                                                        )
+                                                                    ]),
+                                                                    _vm._v(" "),
+                                                                    _c("ul", [
+                                                                        _c("li", [
+                                                                            _vm._v("Utilizzo del framework Laravel")
+                                                                        ])
+                                                                    ])
+                                                                ]
+                                                            )
+                                                        ]
+                                                    )
+                                                ]),
+                                                _vm._v(" "),
+                                                _c("div", {staticClass: "sito eduprime sm:h-full"}, [
+                                                    _c(
+                                                        "div",
+                                                        {
+                                                            staticClass:
+                                                                "grid xs:grid-rows-2  sm:grid-cols-3 sm:gap-x-2 w-full h-full mb-5"
+                                                        },
+                                                        [
+                                                            _c(
+                                                                "a",
+                                                                {
+                                                                    staticClass: "inline-block",
+                                                                    attrs: {
+                                                                        href: "https://www.bearwebdesign.it/EduPrime/"
+                                                                    }
+                                                                },
+                                                                [
+                                                                    _c(
+                                                                        "div",
+                                                                        {
+                                                                            staticClass:
+                                                                                "left flex justify-center left h-full max-sm:h-48"
+                                                                        },
+                                                                        [
+                                                                            _c("img", {
+                                                                                staticClass:
+                                                                                    "xs:rounded-tl-xl xs:rounded-tr-xl xs:rounded-bl-none",
+                                                                                attrs: {
+                                                                                    src: "/img/eduprime.png",
+                                                                                    alt: "boolzapp Screenshot"
+                                                                                }
+                                                                            })
+                                                                        ]
                                                                     )
-                                                                ]),
-                                                                _vm._v(" "),
-                                                                _c("ul", [_c("li", [_vm._v("Layout e animazioni")])])
-                                                            ]
-                                                        )
-                                                    ]
-                                                )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", {staticClass: "sito museek sm:h-48"}, [
+                                                                ]
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                                "div",
+                                                                {
+                                                                    staticClass:
+                                                                        "right sm:col-span-2 h-full w-full\n                                xs:rounded-tl-none xs:rounded-tr-none xs:rounded-bl-xl xs:rounded-br-xl\n                            "
+                                                                },
+                                                                [
+                                                                    _c("p", {staticClass: "sito-titolo"}, [
+                                                                        _vm._v("EduPrime")
+                                                                    ]),
+                                                                    _vm._v(" "),
+                                                                    _c("p", {staticClass: "sito-desc"}, [
+                                                                        _vm._v("Progetto individuale di metà corso "),
+                                                                        _c(
+                                                                            "a",
+                                                                            {attrs: {href: "https://boolean.careers"}},
+                                                                            [_vm._v("Boolean")]
+                                                                        )
+                                                                    ]),
+                                                                    _vm._v(" "),
+                                                                    _c("p", {staticClass: "sito-desc"}, [
+                                                                        _vm._v("Riproduzione tema di WordPress EduPrime")
+                                                                    ]),
+                                                                    _vm._v(" "),
+                                                                    _c("p", {staticClass: "sito-desc"}, [
+                                                                        _vm._v(
+                                                                            "Tecnologie utilizzate: HTML, CSS, SCSS, Javascript, Vue.js"
+                                                                        )
+                                                                    ]),
+                                                                    _vm._v(" "),
+                                                                    _c("ul", [
+                                                                        _c("li", [_vm._v("Layout e animazioni")])
+                                                                    ])
+                                                                ]
+                                                            )
+                                                        ]
+                                                    )
+                                                ]),
+                                                _vm._v(" "),
+                                                _c("div", {staticClass: "sito museek sm:h-full"}, [
+                                                    _c(
+                                                        "div",
+                                                        {
+                                                            staticClass:
+                                                                "grid xs:grid-rows-2  sm:grid-cols-3 sm:gap-x-2 w-full h-full mb-5"
+                                                        },
+                                                        [
+                                                            _c(
+                                                                "a",
+                                                                {
+                                                                    staticClass: "inline-block",
+                                                                    attrs: {href: "https://museek.eu"}
+                                                                },
+                                                                [
+                                                                    _c(
+                                                                        "div",
+                                                                        {
+                                                                            staticClass:
+                                                                                "left flex justify-center left h-full max-sm:h-48"
+                                                                        },
+                                                                        [
+                                                                            _c("img", {
+                                                                                staticClass:
+                                                                                    "xs:rounded-tl-xl xs:rounded-tr-xl xs:rounded-bl-none",
+                                                                                attrs: {
+                                                                                    src: "/img/museek.png",
+                                                                                    alt: "boolzapp Screenshot"
+                                                                                }
+                                                                            })
+                                                                        ]
+                                                                    )
+                                                                ]
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                                "div",
+                                                                {
+                                                                    staticClass:
+                                                                        "right sm:col-span-2 h-full w-full\n                                xs:rounded-tl-none xs:rounded-tr-none xs:rounded-bl-xl xs:rounded-br-xl\n                            "
+                                                                },
+                                                                [
+                                                                    _c("p", {staticClass: "sito-titolo"}, [
+                                                                        _vm._v("MuSeek.eu")
+                                                                    ]),
+                                                                    _vm._v(" "),
+                                                                    _c("p", {staticClass: "sito-desc"}, [
+                                                                        _vm._v("Landing page della start-up Museek")
+                                                                    ]),
+                                                                    _vm._v(" "),
+                                                                    _c("p", {staticClass: "sito-desc"}, [
+                                                                        _vm._v("Wordpress")
+                                                                    ])
+                                                                ]
+                                                            )
+                                                        ]
+                                                    )
+                                                ]),
+                                                _vm._v(" "),
                                                 _c(
                                                     "div",
-                                                    {
-                                                        staticClass:
-                                                            "grid xs:grid-rows-2  sm:grid-cols-3 sm:gap-x-2 w-full h-full mb-5"
-                                                    },
+                                                    {staticClass: "sito portfolio-launcher sm:h-full"},
                                                     [
-                                                        _c(
-                                                            "a",
-                                                            {
-                                                                staticClass: "inline-block",
-                                                                attrs: {href: "https://museek.eu"}
-                                                            },
-                                                            [
-                                                                _c(
-                                                                    "div",
-                                                                    {
-                                                                        staticClass:
-                                                                            "left flex justify-center left h-full max-sm:h-48"
-                                                                    },
-                                                                    [
-                                                                        _c("img", {
-                                                                            staticClass:
-                                                                                "xs:rounded-tl-xl xs:rounded-tr-xl xs:rounded-bl-none",
-                                                                            attrs: {
-                                                                                src: "/img/museek.png",
-                                                                                alt: "boolzapp Screenshot"
-                                                                            }
-                                                                        })
-                                                                    ]
-                                                                )
-                                                            ]
-                                                        ),
-                                                        _vm._v(" "),
                                                         _c(
                                                             "div",
                                                             {
                                                                 staticClass:
-                                                                    "right sm:col-span-2 h-full w-full\n                                xs:rounded-tl-none xs:rounded-tr-none xs:rounded-bl-xl xs:rounded-br-xl\n                            "
+                                                                    "grid xs:grid-rows-2  sm:grid-cols-3 sm:gap-x-2 w-full h-full mb-5"
                                                             },
                                                             [
-                                                                _c("p", {staticClass: "sito-titolo"}, [
-                                                                    _vm._v("MuSeek.eu")
-                                                                ]),
+                                                                _c(
+                                                                    "a",
+                                                                    {
+                                                                        staticClass: "inline-block",
+                                                                        attrs: {
+                                                                            href:
+                                                                                "https://templarec.github.io/PortfolioLauncher/"
+                                                                        }
+                                                                    },
+                                                                    [
+                                                                        _c(
+                                                                            "div",
+                                                                            {
+                                                                                staticClass:
+                                                                                    "left flex justify-center left h-full w-full max-sm:h-48"
+                                                                            },
+                                                                            [
+                                                                                _c("img", {
+                                                                                    staticClass:
+                                                                                        "xs:rounded-tl-xl xs:rounded-tr-xl xs:rounded-bl-none",
+                                                                                    attrs: {
+                                                                                        src: "/img/crt.png",
+                                                                                        alt: "boolzapp Screenshot"
+                                                                                    }
+                                                                                })
+                                                                            ]
+                                                                        )
+                                                                    ]
+                                                                ),
                                                                 _vm._v(" "),
-                                                                _c("p", {staticClass: "sito-desc"}, [
-                                                                    _vm._v("Landing page della start-up Museek")
-                                                                ]),
-                                                                _vm._v(" "),
-                                                                _c("p", {staticClass: "sito-desc"}, [
-                                                                    _vm._v("Wordpress")
-                                                                ])
-                                                            ]
-                                                        )
-                                                    ]
-                                                )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("div", {staticClass: "sito portfolio-launcher sm:h-48"}, [
-                                                _c(
-                                                    "div",
-                                                    {
-                                                        staticClass:
-                                                            "grid xs:grid-rows-2  sm:grid-cols-3 sm:gap-x-2 w-full h-full mb-5"
-                                                    },
-                                                    [
-                                                        _c(
-                                                            "a",
-                                                            {
-                                                                staticClass: "inline-block",
-                                                                attrs: {
-                                                                    href:
-                                                                        "https://templarec.github.io/PortfolioLauncher/"
-                                                                }
-                                                            },
-                                                            [
                                                                 _c(
                                                                     "div",
                                                                     {
                                                                         staticClass:
-                                                                            "left flex justify-center left h-full w-full max-sm:h-48"
+                                                                            "right sm:col-span-2 h-full w-full\n                                xs:rounded-tl-none xs:rounded-tr-none xs:rounded-bl-xl xs:rounded-br-xl\n                            "
                                                                     },
                                                                     [
-                                                                        _c("img", {
-                                                                            staticClass:
-                                                                                "xs:rounded-tl-xl xs:rounded-tr-xl xs:rounded-bl-none",
-                                                                            attrs: {
-                                                                                src: "/img/crt.png",
-                                                                                alt: "boolzapp Screenshot"
-                                                                            }
-                                                                        })
+                                                                        _c("p", {staticClass: "sito-titolo"}, [
+                                                                            _vm._v("Portfolio Launcher 1.73")
+                                                                        ]),
+                                                                        _vm._v(" "),
+                                                                        _c("p", {staticClass: "sito-desc"}, [
+                                                                            _vm._v("Versione CLI del mio portfolio")
+                                                                        ]),
+                                                                        _vm._v(" "),
+                                                                        _c("p", {staticClass: "sito-desc"}, [
+                                                                            _vm._v("Progetto personale")
+                                                                        ]),
+                                                                        _vm._v(" "),
+                                                                        _c("p", {staticClass: "sito-desc"}, [
+                                                                            _vm._v("HTML, CSS, Javascript, Vue.js")
+                                                                        ])
                                                                     ]
                                                                 )
-                                                            ]
-                                                        ),
-                                                        _vm._v(" "),
-                                                        _c(
-                                                            "div",
-                                                            {
-                                                                staticClass:
-                                                                    "right sm:col-span-2 h-full w-full\n                                xs:rounded-tl-none xs:rounded-tr-none xs:rounded-bl-xl xs:rounded-br-xl\n                            "
-                                                            },
-                                                            [
-                                                                _c("p", {staticClass: "sito-titolo"}, [
-                                                                    _vm._v("Portfolio Launcher 1.73")
-                                                                ]),
-                                                                _vm._v(" "),
-                                                                _c("p", {staticClass: "sito-desc"}, [
-                                                                    _vm._v("Versione CLI del mio portfolio")
-                                                                ]),
-                                                                _vm._v(" "),
-                                                                _c("p", {staticClass: "sito-desc"}, [
-                                                                    _vm._v("Progetto personale")
-                                                                ]),
-                                                                _vm._v(" "),
-                                                                _c("p", {staticClass: "sito-desc"}, [
-                                                                    _vm._v("HTML, CSS, Javascript, Vue.js")
-                                                                ])
                                                             ]
                                                         )
                                                     ]
                                                 )
-                                            ])
-                                        ])
+                                            ]
+                                        )
                                     ]
                                 )
                             ])

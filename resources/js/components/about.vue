@@ -3,8 +3,8 @@
 
         <div class="flex-col w-full h-full flex justify-center items-center w-full">
             <aside
-                class="about xs:hidden relative justify-center flex flex-col items-center sm:w-1/2 md:w-1/3 lg:w-1/3">
-                <img class="mt-56 sm:w-1/2" src="/img/lory.png" alt="Foto profilo">
+                class="about pt-10 xs:hidden relative justify-center flex flex-col items-center sm:w-1/5 md:w-1/5 lg:w-1/5">
+                <img src="/img/lory.png" alt="Foto profilo">
             </aside>
             <div class="jumbo-about flex flex-col">
                 <p class="w-full p-4">
